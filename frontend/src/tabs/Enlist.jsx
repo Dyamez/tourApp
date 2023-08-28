@@ -1,5 +1,5 @@
 import React from "react";
 
-export default Enlist = () => {
+export default function Enlist() {
   return <div>Enlist</div>;
-};
+}

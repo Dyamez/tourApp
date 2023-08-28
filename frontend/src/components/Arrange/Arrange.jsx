@@ -1,5 +1,15 @@
 import React from "react";
 
-export default Arrange = () => {
-  return <div>Arrange</div>;
-};
+import Header from "./Header";
+import Footer from "./Footer";
+import Router from "../../router/Router";
+
+export default function Arrange() {
+  return (
+    <>
+      <Header />
+      <Router />
+      <Footer />
+    </>
+  );
+}

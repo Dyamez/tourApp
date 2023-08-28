@@ -1,5 +1,5 @@
 import React from "react";
 
-export default Results = () => {
+export default function Results() {
   return <div>Results</div>;
-};
+}

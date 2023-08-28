@@ -1,5 +1,5 @@
 import React from "react";
 
-export default Tours = () => {
+export default function Tours() {
   return <div>Tours</div>;
-};
+}
