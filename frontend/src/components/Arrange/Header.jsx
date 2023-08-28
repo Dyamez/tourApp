@@ -47,9 +47,11 @@ const Header = () => {
                 ))}
               </ul>
             </div>
+
             {}
-            <div className="dir_right d-flex align-items-center gap-4">
-              <div className="dir_btn d-flex align-items-center gap-4">
+
+            <div className="dir_right d-flex align-items-center gap-5">
+              <div className="dir_btn d-flex align-items-center gap-5">
                 <Button className="btn secondBtn">
                   <Link to="/login">Login</Link>
                 </Button>
