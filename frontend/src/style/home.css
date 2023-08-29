@@ -12,7 +12,7 @@
 }
 
 .underText_menu h1 .spotlight {
-  color: var(--secondary-color);
+  color: red;
 }
 
 .underText_menu p {
@@ -28,4 +28,21 @@
   height: 350px;
   border-radius: 20px;
   border: 1px solid var(--secondary-color);
+}
+
+.my_underText {
+  color: orangered;
+}
+
+.offerings_text {
+  color: orange;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+  font-size: 2.5rem;
+}
+
+.head_text {
+  color: red;
+  font-weight: 450;
+  font-size: 2.5rem;
 }

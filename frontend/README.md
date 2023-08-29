@@ -5,10 +5,12 @@ Issues:
 alert not popping for search on Home.
 Navbar on Header buttons not aligned to the end.
 video autoplay has issues on load.
+Arrange.jsx importing of Header & Footer needs fix.
 
 Credits/References:
 
 remixicon.com (icon)
+pngmart.com
 
 Scrimba: https://scrimba.com/allcourses?topic=react
 

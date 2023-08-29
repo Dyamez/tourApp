@@ -7,6 +7,7 @@ import glidingVid from "../assets/images/glidiing.mp4";
 import UnderText from "../access/underText";
 import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
+import MenuNote from "../menu/MenuNote";
 
 const Home = () => {
   return (
@@ -58,6 +59,17 @@ const Home = () => {
         </Container>
       </section>
       {}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="3">
+              <h4 className="offerings_text">Our Services</h4>
+              <h3 className="head_text">Only the Best is what we offer</h3>
+            </Col>
+            <MenuNote />
+          </Row>
+        </Container>
+      </section>
     </>
   );
 };
