@@ -1,0 +1,6 @@
+.search_box {
+  padding: 1rem 1rem;
+  width: max-content;
+  box-shadow: rgba(17, 12, 46, 0.17) 0px 49px 99px 0px;
+  border-radius: 49px;
+}

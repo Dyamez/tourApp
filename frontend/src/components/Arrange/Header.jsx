@@ -19,12 +19,12 @@ const linky = [
   },
 ];
 
-const Header = () => {
+export default function Header() {
   return (
     <header className="header">
       <Container>
         <Row>
-          <div className="nav__wrapper d-flex align-items-center-justify-content-between">
+          <div className="linky_wrapper d-flex align-items-center-justify-content-between">
             {}
             <div className="brand">
               <img src={brand} alt="brand" />
@@ -50,13 +50,13 @@ const Header = () => {
 
             {}
 
-            <div className="dir_right d-flex align-items-center gap-5">
-              <div className="dir_btn d-flex align-items-center gap-5">
+            <div className="form-inline my-2 my-lg-0">
+              <div className="form-inline my-2 my-lg-0">
                 <Button className="btn secondBtn">
                   <Link to="/login">Login</Link>
                 </Button>
-                <Button className="btn firstBtn">
-                  <Link to="/enlist">Enlist</Link>
+                <Button className="btn primaryBtn">
+                  <Link to="/enlist">Register</Link>
                 </Button>
               </div>
               <span className="portable">
@@ -68,6 +68,4 @@ const Header = () => {
       </Container>
     </header>
   );
-};
-
-export default Header;
+}

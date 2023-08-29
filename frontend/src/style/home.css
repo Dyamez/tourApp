@@ -1,0 +1,31 @@
+.my_underText img {
+  width: 30rem;
+  height: 15rem;
+}
+
+.underText_menu h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  font-weight: 650;
+  color: var(--heading-color);
+}
+
+.underText_menu h1 .spotlight {
+  color: var(--secondary-color);
+}
+
+.underText_menu p {
+  line-height: 2.5rem;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+.texted_imgBox img,
+.texted_imgBox video {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  border: 1px solid var(--secondary-color);
+}
