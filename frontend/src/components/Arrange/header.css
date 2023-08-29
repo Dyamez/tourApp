@@ -36,8 +36,8 @@
   background: blue;
 }
 
-.brand {
-  width: 30%;
+.brand img {
+  width: 60%;
 }
 
 dir_item a.awakeLink {

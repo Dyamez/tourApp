@@ -1,6 +1,39 @@
 .search_box {
+  border-radius: 1rem;
   padding: 1rem 1rem;
+  margin-top: 30px;
   width: max-content;
   box-shadow: rgba(17, 12, 46, 0.17) 0px 49px 99px 0px;
   border-radius: 49px;
 }
+
+.form__group input {
+  font-weight: 550;
+  font-size: 1rem;
+  color: orange;
+  border: groove;
+}
+
+.form__group span {
+  color: red;
+  font-size: 2rem;
+}
+
+.form__group input:focus {
+  outline: none;
+}
+
+.find_img i {
+  padding: 0.5rem;
+  cursor: zoom-in;
+  border-radius: 1rem;
+  background: gray;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/*
+.groupOne {
+  border-right: 4px solid gray;
+}
+*/

@@ -50,8 +50,8 @@ export default function Header() {
 
             {}
 
-            <div className="form-inline my-2 my-lg-0">
-              <div className="form-inline my-2 my-lg-0">
+            <div className="dir_right d-flex justify-content-end gap-5">
+              <div className="dir_btn d-flex justify-content-end gap-5">
                 <Button className="btn secondBtn">
                   <Link to="/login">Login</Link>
                 </Button>
