@@ -5,3 +5,4 @@ remixicon.com (icon)
 Scrimba: https://scrimba.com/allcourses?topic=react
 Lama Dev: https://www.buymeacoffee.com/lamadev
 Coding with Muhib: https://www.buymeacoffee.com/codingwithmuhib
+map image: https://www.tsiosophy.com/wp/wp-content/uploads/2011/04/Worldmap_LandAndPolitical.jpg

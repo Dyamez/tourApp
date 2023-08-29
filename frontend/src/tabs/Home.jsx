@@ -1,9 +1,9 @@
 import React from "react";
 import "../style/home.css";
 import { Row, Container, Col } from "reactstrap";
-import bridgeImg from "../assets/images/bridge.jpg";
+import taalImg from "../assets/images/taal.webp";
 import rrockImg from "../assets/images/rrock.jpg";
-import vegasVid from "../assets/images/vegasVid.webm";
+import glidingVid from "../assets/images/glidiing.mp4";
 import UnderText from "../access/underText";
 import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
@@ -34,11 +34,11 @@ const Home = () => {
             </Col>
             <Col lg="3">
               <div className="texted_imgBox">
-                <img src={bridgeImg} alt="bridge Frisco" />
+                <img src={taalImg} alt="taal volcano" />
               </div>
               <Col lg="20">
                 <div className="texted_imgBox video">
-                  <video src={vegasVid} alt="vegas video" controls />
+                  <video src={glidingVid} alt="gliding video" controls />
                 </div>
                 <Col lg="15">
                   <div className="texted_imgBox">
