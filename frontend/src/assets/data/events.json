@@ -1,132 +1,119 @@
 [
   {
-    "title": "Westminister Bridge",
+    "title": "Big Bridge",
     "city": "London",
-    "address": "Somewhere in London",
-    "distance": 300,
-    "price": 99,
-    "maxGroupSize": 10,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/tour-images/tour-img01.jpg",
-    "featured": true
-  },
-  {
-    "title": "Bali, Indonesia",
-    "city": "Bali",
-    "address": "Somewhere in Indonesia",
-    "distance": 400,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/tour-images/tour-img02.jpg",
-    "featured": true
-  },
-  {
-    "title": "Snowy Mountains, Thailand",
-    "city": "Bangkok",
-    "address": "Somewhere in Thailand",
-    "distance": 500,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/tour-images/tour-img03.jpg",
-    "featured": true
-  },
-  {
-    "title": "Beautiful Sunrise, Thailand",
-    "city": "Phuket",
-    "address": "Somewhere in Thailand",
-    "distance": 500,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/tour-images/tour-img04.jpg",
-    "featured": true
-  },
-  {
-    "title": "Nusa Pendia Bali, Indonesia",
-    "city": "Bali",
-    "address": "Somewhere in Indonesia",
-    "distance": 500,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/tour-images/tour-img05.jpg",
-    "featured": true
-  },
-  {
-    "title": "Cherry Blossoms Spring",
-    "city": "Tokyo",
-    "address": "Somewhere in Japan",
-    "distance": 500,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/tour-images/tour-img06.jpg",
-    "featured": true
-  },
-  {
-    "title": "Holmen Lofoten, France",
-    "city": "Paris",
-    "address": "Somewhere in France",
-    "distance": 500,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/tour-images/tour-img07.jpg",
-    "featured": true
-  },
-  {
-    "title": "Snowy Mountains, Thailand",
-    "city": "Bangkok",
-    "address": "Somewhere in Thailand",
-    "distance": 500,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/tour-images/tour-img03.jpg",
-    "featured": true
-  },
-  {
-    "title": "Jaflong, Sylhet",
-    "city": "Sylhet",
-    "address": "Somewhere in Sylhet",
-    "distance": 100,
-    "price": 99,
+    "address": "Bloody England",
+    "distance": 600,
+    "price": 980,
     "maxGroupSize": 5,
-    "desc": "this is the description",
+    "desc": "Big bridges are great",
     "reviews": [],
 
-    "photo": "/tour-images/tour-img08.jpg",
-    "featured": false
+    "photo": "/images/pic01.jpg",
+    "featured": true
   },
   {
-    "title": "Cox's Bazar Sea Beach",
-    "city": "Chittagong",
-    "address": "Somewhere in Chittagong",
-    "distance": 500,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
+    "title": "Stunning Indonesia",
+    "city": "Sumatra",
+    "address": "Sumatra, Indonesia",
+    "distance": 788,
+    "price": 800,
+    "maxGroupSize": 5,
+    "desc": "Paradise in Earth",
     "reviews": [],
 
-    "photo": "/tour-images/tour-img09.jpg",
+    "photo": "/images/pic02.jpg",
+    "featured": true
+  },
+  {
+    "title": "Phuket, Thailand",
+    "city": "Phuket",
+    "address": "Phuket, Thailand",
+    "distance": 899,
+    "price": 766,
+    "maxGroupSize": 4,
+    "desc": "Dreamlike Location",
+    "reviews": [],
+
+    "photo": "/images/pic03.jpg",
+    "featured": true
+  },
+  {
+    "title": "Thailand",
+    "city": "Kalimantan",
+    "address": "Kalimantan, Thailand",
+    "distance": 690,
+    "price": 786,
+    "maxGroupSize": 7,
+    "desc": "It is to live for",
+    "reviews": [],
+
+    "photo": "/images/pic04.jpg",
+    "featured": true
+  },
+  {
+    "title": "Indonesia",
+    "city": "Jakarta",
+    "address": "Jakarta, Indonesia",
+    "distance": 890,
+    "price": 873,
+    "maxGroupSize": 8,
+    "desc": "It will love you for a long time",
+    "reviews": [],
+
+    "photo": "/images/pic05.jpg",
+    "featured": true
+  },
+  {
+    "title": "Ramen Heaven",
+    "city": "Nagasaki",
+    "address": "Nagasaki, Japan",
+    "distance": 799,
+    "price": 899,
+    "maxGroupSize": 5,
+    "desc": "Go back in time",
+    "reviews": [],
+
+    "photo": "/images/pic06.jpg",
+    "featured": true
+  },
+  {
+    "title": "France",
+    "city": "Paris",
+    "address": "Paris, France",
+    "distance": 689,
+    "price": 889,
+    "maxGroupSize": 4,
+    "desc": "Nice food",
+    "reviews": [],
+
+    "photo": "/images/pic07.jpg",
+    "featured": true
+  },
+  {
+    "title": "Thailand",
+    "city": "Lampang",
+    "address": "Lampang, Thailand",
+    "distance": 789,
+    "price": 897,
+    "maxGroupSize": 9,
+    "desc": "Middle of the Region",
+    "reviews": [],
+
+    "photo": "/images/pic03.jpg",
+    "featured": true
+  },
+  {
+    "title": "Tagaytay, Philippines",
+    "city": "Tagaytay",
+    "address": "Tagaytay City",
+    "distance": 887,
+    "price": 799,
+    "maxGroupSize": 7,
+    "desc": "The Volcano is a must see.",
+    "reviews": [],
+
+    "photo": "/images/pic08.jpg",
     "featured": false
   }
 ]
