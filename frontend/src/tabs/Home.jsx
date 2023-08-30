@@ -5,6 +5,7 @@ import taalImg from "../assets/images/taal.webp";
 import rrockImg from "../assets/images/rrock.jpg";
 import glidingVid from "../assets/images/glidiing.mp4";
 import UnderText from "../access/underText";
+import ShownNotes from "../components/Shown/ShownNotes";
 import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
@@ -67,6 +68,17 @@ const Home = () => {
               <h3 className="head_text">Only the Best is what we offer</h3>
             </Col>
             <MenuNote />
+          </Row>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          <Row>
+            <Col lg="11" classname="mb-6">
+              <UnderText underText={"Discover"} />
+              <h3 className="shownTitle">Recommended Tour Experience</h3>
+            </Col>
+            <ShownNotes />
           </Row>
         </Container>
       </section>

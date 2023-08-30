@@ -1,4 +1,4 @@
-menu_img {
+.menu_img {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -6,6 +6,20 @@ menu_img {
   border-radius: 60px;
   height: 60px;
   width: 60px;
+  line-height: 60px;
+  margin-bottom: 1rem;
+  background: gray;
+  padding: 1rem;
+}
+
+.menu_item p {
+  font-size: 1rem;
+  color: orange;
+}
+
+.menu_item h4 {
+  font-size: 1.5rem;
+  font-weight: 550;
 }
 
 .menu_item {
@@ -13,4 +27,8 @@ menu_img {
   padding: 0.9rem;
   border-bottom: 1px solid orange;
   border-right: 1px solid orange;
+}
+
+.menu_img img {
+  width: 95%;
 }
