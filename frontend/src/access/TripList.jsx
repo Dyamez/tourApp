@@ -1,19 +1,12 @@
 import React from "react";
-
-export default function TripList() {
-  return <div>TripList</div>;
-}
-
-/*
-import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardBody } from "reactstrap";
 
-export default function TripList({ touring }) {
-  const { title, price, id, city, avgRating, photo, reviews } = touring; //featured,
+export default function TripList({ event }) {
+  const { title, price, id, city, avgRating, photo, reviews } = event; //featured,
 
   return (
-    <div className="trip-list">
+    <div className="trip_list">
       <Card>
         <div className="trip_img">
           <img src={photo} alt="trip picture" />
@@ -44,4 +37,3 @@ export default function TripList({ touring }) {
     </div>
   );
 }
-*/

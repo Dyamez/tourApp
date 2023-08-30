@@ -6,9 +6,9 @@ import eventData from "../../assets/data/events";
 export default function ShownNotes() {
   return (
     <>
-      {eventData?.map((events) => (
-        <Col lg="4" className="mb-4" key={events.id}>
-          <TripList events={events} />
+      {eventData?.map((event) => (
+        <Col lg="4" className="mb-4" key={event.id}>
+          <TripList event={event} />
         </Col>
       ))}
     </>

@@ -12,7 +12,7 @@ const events = [
     title: "Big Ben",
     city: "London",
     distance: 300,
-    price: 99,
+    price: 998,
     maxGroupSize: 10,
     desc: "Big Ben",
     reviews: [
@@ -30,7 +30,7 @@ const events = [
     title: "Indonesia",
     city: "Indonesia",
     distance: 400,
-    price: 99,
+    price: 400,
     maxGroupSize: 8,
     desc: "paradise",
     reviews: [
@@ -48,7 +48,7 @@ const events = [
     title: "Thailand",
     city: "Thailand",
     distance: 500,
-    price: 99,
+    price: 800,
     maxGroupSize: 8,
     desc: "Dreamy",
     reviews: [
@@ -66,7 +66,7 @@ const events = [
     title: "Thailand",
     city: "Thailand",
     distance: 500,
-    price: 99,
+    price: 700,
     maxGroupSize: 8,
     desc: "Spectacular",
     reviews: [
@@ -84,7 +84,7 @@ const events = [
     title: "Indonesia",
     city: "Indonesia",
     distance: 500,
-    price: 99,
+    price: 940,
     maxGroupSize: 8,
     desc: "Relaxing",
     reviews: [
@@ -102,7 +102,7 @@ const events = [
     title: "Spring",
     city: "Japan",
     distance: 500,
-    price: 99,
+    price: 634,
     maxGroupSize: 8,
     desc: "Breathtaking",
     reviews: [
@@ -120,7 +120,7 @@ const events = [
     title: "Frenchy",
     city: "France",
     distance: 500,
-    price: 99,
+    price: 674,
     maxGroupSize: 8,
     desc: "Very French",
     reviews: [
@@ -138,7 +138,7 @@ const events = [
     title: "Thailand",
     city: "Thailand",
     distance: 500,
-    price: 99,
+    price: 578,
     maxGroupSize: 8,
     desc: "Fun",
     reviews: [
