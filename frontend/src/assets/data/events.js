@@ -6,7 +6,7 @@ import pic05 from "../images/pic5.jpg";
 import pic06 from "../images/pic6.jpg";
 import pic07 from "../images/pic7.jpg";
 
-const tours = [
+const events = [
   {
     id: "01",
     title: "Big Ben",
@@ -153,4 +153,4 @@ const tours = [
   },
 ];
 
-export default tours;
+export default events;
