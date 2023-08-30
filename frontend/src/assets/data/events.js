@@ -1,46 +1,56 @@
 import pic01 from "../images/pic1.jpg";
-import pic02 from "../images/pic2.jpg";
+//import pic02 from "../images/pic2.jpg";
 import pic03 from "../images/pic3.jpg";
 import pic04 from "../images/pic4.jpg";
 import pic05 from "../images/pic5.jpg";
 import pic06 from "../images/pic6.jpg";
 import pic07 from "../images/pic7.jpg";
+import pic09 from "../images/pic9.jpg";
+import pic10 from "../images/pic10.jpg";
 
 const events = [
   {
     id: "01",
-    title: "Big Ben",
-    city: "London",
-    distance: 300,
-    price: 998,
-    maxGroupSize: 10,
-    desc: "Big Ben",
+    title: "Luneta Park",
+    city: "Manila",
+    distance: 800,
+    price: 888,
+    maxGroupSize: 2,
+    desc: "Historical landmark in Manila",
     reviews: [
       {
+        name: "Edward",
+        rating: 5.0,
+      },
+      {
         name: "James",
-        rating: 4.9,
+        rating: 5.0,
+      },
+      {
+        name: "Justine",
+        rating: 5.0,
       },
     ],
-    avgRating: 4.5,
-    photo: pic01,
+    avgRating: 4.9,
+    photo: pic09,
     featured: true,
   },
   {
     id: "02",
-    title: "Indonesia",
-    city: "Indonesia",
-    distance: 400,
-    price: 400,
-    maxGroupSize: 8,
-    desc: "paradise",
+    title: "The Strip",
+    city: "Las Vegas",
+    distance: 100,
+    price: 300,
+    maxGroupSize: 10,
+    desc: "What happens in Vegas...",
     reviews: [
       {
-        name: "mary",
+        name: "Samantha",
         rating: 3.6,
       },
     ],
     avgRating: 4.5,
-    photo: pic02,
+    photo: pic10,
     featured: true,
   },
   {
@@ -51,12 +61,7 @@ const events = [
     price: 800,
     maxGroupSize: 8,
     desc: "Dreamy",
-    reviews: [
-      {
-        name: "Randy",
-        rating: 4.0,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: pic03,
     featured: true,
@@ -74,6 +79,14 @@ const events = [
         name: "George",
         rating: 3.6,
       },
+      {
+        name: "Marvin",
+        rating: 3.5,
+      },
+      {
+        name: "Dexter",
+        rating: 4.0,
+      },
     ],
     avgRating: 4.9,
     photo: pic04,
@@ -89,7 +102,7 @@ const events = [
     desc: "Relaxing",
     reviews: [
       {
-        name: "Samantha",
+        name: "Natalie",
         rating: 3.6,
       },
     ],
@@ -123,12 +136,7 @@ const events = [
     price: 674,
     maxGroupSize: 8,
     desc: "Very French",
-    reviews: [
-      {
-        name: "Mario",
-        rating: 4.3,
-      },
-    ],
+    reviews: [],
     avgRating: 4.2,
     photo: pic07,
     featured: false,
@@ -150,6 +158,24 @@ const events = [
     avgRating: 4.6,
     photo: pic03,
     featured: false,
+  },
+  {
+    id: "09",
+    title: "Big Ben",
+    city: "London",
+    distance: 300,
+    price: 998,
+    maxGroupSize: 10,
+    desc: "Big Ben",
+    reviews: [
+      {
+        name: "James",
+        rating: 4.9,
+      },
+    ],
+    avgRating: 4.5,
+    photo: pic01,
+    featured: true,
   },
 ];
 

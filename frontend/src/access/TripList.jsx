@@ -1,16 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardBody } from "reactstrap";
+import "./tripList.css";
 
 export default function TripList({ event }) {
-  const { title, price, id, city, avgRating, photo, reviews } = event; //featured,
-
+  const { title, price, id, city, photo, reviews, featured } = event;
+  const Satisfaction = reviews?.reduce((acc, item) => acc + item.rating, 0);
+  const rating =
+    Satisfaction === 0
+      ? ""
+      : Satisfaction === 1
+      ? Satisfaction
+      : Satisfaction / reviews?.length;
   return (
     <div className="trip_list">
       <Card>
         <div className="trip_img">
           <img src={photo} alt="tripImage" />
-          <span>Recommended</span>
+          {featured && <span>Recommended</span>}
         </div>
       </Card>
       <CardBody>
@@ -19,8 +26,12 @@ export default function TripList({ event }) {
             <i class="ri-map-pin-range-line"></i> {city}
           </span>
           <span className="event_rating align-items-center gap-1">
-            <i className="ri-star-s-line"></i> {avgRating}{" "}
-            <span>({reviews.length})</span>
+            <i className="ri-star-s-line"></i> {rating === 0 ? null : rating}
+            {Satisfaction === 0 ? (
+              "None to see here yet"
+            ) : (
+              <span>({reviews.length})</span>
+            )}
           </span>
         </div>
         <h4 className="event_title">
@@ -30,7 +41,7 @@ export default function TripList({ event }) {
         <h4>
           ${price} <span> /each individual</span>
         </h4>
-        <button className="btn reserve_btn">
+        <button className="reserve_btn">
           <Link to={`/events/${id}`}>Reserve your Tour</Link>
         </button>
       </CardBody>

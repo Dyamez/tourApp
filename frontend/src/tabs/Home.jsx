@@ -2,7 +2,6 @@ import React from "react";
 import "../style/home.css";
 import { Row, Container, Col } from "reactstrap";
 import taalImg from "../assets/images/taal.webp";
-import rrockImg from "../assets/images/rrock.jpg";
 import glidingVid from "../assets/images/glidiing.mp4";
 import UnderText from "../access/underText";
 import ShownNotes from "../components/Shown/ShownNotes";
@@ -42,11 +41,7 @@ const Home = () => {
                 <div className="texted_imgBox video">
                   <video src={glidingVid} alt="gliding video" controls />
                 </div>
-                <Col lg="15">
-                  <div className="texted_imgBox">
-                    <img src={rrockImg} alt="red rock NV" />
-                  </div>
-                </Col>
+
                 <SearchBox />
               </Col>
             </Col>
