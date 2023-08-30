@@ -2,11 +2,11 @@
 
 ## Team
 
-# Samantha Sta. Ana,
+### Samantha Sta. Ana,
 
-# Edward James Manansala,
+### Edward James Manansala,
 
-# Jaziel Pat-Canche
+### Jaziel Pat-Canche
 
 Issues:
 8/29
