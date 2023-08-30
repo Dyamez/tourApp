@@ -4,7 +4,7 @@ import Enlist from "../tabs/Enlist";
 import Info from "../tabs/Info";
 import Login from "../tabs/Login";
 import Results from "../tabs/Results";
-import Tours from "../tabs/Tours";
+import Tripping from "../tabs/Tripping";
 import { Navigate, Routes, Route } from "react-router-dom";
 
 const Router = () => {
@@ -13,10 +13,10 @@ const Router = () => {
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="home" element={<Home />} />
       <Route path="enlist" element={<Enlist />} />
-      <Route path="tours/:id" element={<Info />} />
+      <Route path="tripping/:id" element={<Info />} />
       <Route path="login" element={<Login />} />
-      <Route path="tours/search" element={<Results />} />
-      <Route path="tours" element={<Tours />} />
+      <Route path="tripping/search" element={<Results />} />
+      <Route path="tripping" element={<Tripping />} />
     </Routes>
   );
 };

@@ -2,9 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardBody } from "reactstrap";
 import "./tripList.css";
+import ratings from "../tools/rating";
 
 export default function TripList({ event }) {
   const { title, price, id, city, photo, reviews, featured } = event;
+  const { Satisfaction, rating } = ratings(reviews);
+
+  /*
   const Satisfaction = reviews?.reduce((acc, item) => acc + item.rating, 0);
   const rating =
     Satisfaction === 0
@@ -12,6 +16,8 @@ export default function TripList({ event }) {
       : Satisfaction === 1
       ? Satisfaction
       : Satisfaction / reviews?.length;
+
+      */
   return (
     <div className="trip_list">
       <Card>
