@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Button, Row } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
-import brand from "./thrivedxLogo.png";
+import brand from "../../assets/images/thrivedxLogo.png";
 import "./header.css";
 
 const linky = [
@@ -24,15 +24,15 @@ export default function Header() {
     <header className="header">
       <Container>
         <Row>
-          <div className="linky_wrapper d-flex align-items-center-justify-content-between">
+          <div className="linky_wrapper d-flex align-items-center justify-content-between">
             {}
             <div className="brand">
               <img src={brand} alt="brand" />
             </div>
             {}
             {}
-            <div className="directions">
-              <ul className="main d-flex align-items-center gap-5">
+            <div className="directions d-flex flex-row">
+              <ul className="main d-flex justify-content-center gap-3">
                 {linky.map((item, index) => (
                   <li className="dir_item" key={index}>
                     <NavLink
@@ -49,15 +49,16 @@ export default function Header() {
             </div>
 
             {}
-
-            <div className="form-inline my-2 my-lg-0">
-              <div className="form-inline my-2 my-lg-0">
-                <Button className="btn secondBtn">
-                  <Link to="/login">Login</Link>
-                </Button>
-                <Button className="btn primaryBtn">
-                  <Link to="/enlist">Register</Link>
-                </Button>
+            <div className="position-relative">
+              <div className="dir_right d-flex align-items-center gap-5">
+                <div className="dir_btn d-flex align-items-center gap-3">
+                  <Button className="btn btn-warning">
+                    <Link to="/login">Login</Link>
+                  </Button>
+                  <Button className="btn btn-info">
+                    <Link to="/enlist">Register</Link>
+                  </Button>
+                </div>
               </div>
               <span className="portable">
                 <i class="ri-menu-5-line"></i>

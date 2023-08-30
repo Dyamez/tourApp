@@ -26,7 +26,7 @@ export default function SearchBox() {
             </span>
             <div>
               <h5>Places</h5>
-              <input type="text" placeholder="where to?" ref={placesRf} />
+              <input type="text" placeholder=" where to?" ref={placesRf} />
             </div>
           </FormGroup>
           <FormGroup className="d-flex gap-4 form__group groupOne">
@@ -48,7 +48,7 @@ export default function SearchBox() {
             </div>
           </FormGroup>
 
-          <span onclick={searchMee} className="find_img" type="submit">
+          <span className="find_img" type="submit" onClick={searchMee}>
             <i class="ri-search-eye-line"></i>
           </span>
         </Form>

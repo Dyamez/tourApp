@@ -40,13 +40,7 @@ const Home = () => {
               </div>
               <Col lg="20">
                 <div className="texted_imgBox video">
-                  <video
-                    src={glidingVid}
-                    alt="gliding video"
-                    controls
-                    autoplay
-                    mute
-                  />
+                  <video src={glidingVid} alt="gliding video" controls />
                 </div>
                 <Col lg="15">
                   <div className="texted_imgBox">

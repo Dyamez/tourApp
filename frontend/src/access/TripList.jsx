@@ -9,7 +9,7 @@ export default function TripList({ event }) {
     <div className="trip_list">
       <Card>
         <div className="trip_img">
-          <img src={photo} alt="trip picture" />
+          <img src={photo} alt="tripImage" />
           <span>Recommended</span>
         </div>
       </Card>
@@ -19,7 +19,7 @@ export default function TripList({ event }) {
             <i class="ri-map-pin-range-line"></i> {city}
           </span>
           <span className="event_rating align-items-center gap-1">
-            <i class="ri-star-s-line"></i> {avgRating}{" "}
+            <i className="ri-star-s-line"></i> {avgRating}{" "}
             <span>({reviews.length})</span>
           </span>
         </div>

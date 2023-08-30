@@ -25,7 +25,7 @@
 
 .find_img i {
   padding: 0.5rem;
-  cursor: zoom-in;
+  cursor: pointer;
   border-radius: 1rem;
   background: gray;
   color: whitesmoke;
