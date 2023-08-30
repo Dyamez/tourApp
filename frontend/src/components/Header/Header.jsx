@@ -7,15 +7,15 @@ import "./header.css";
 const linky = [
   {
     path: "/home",
-    display: "Home",
+    display: "______________________________Home",
   },
   {
     path: "/info",
-    display: "Information",
+    display: "Information ",
   },
   {
     path: "/tours",
-    display: "Tours",
+    display: "Tours______________________________",
   },
 ];
 
