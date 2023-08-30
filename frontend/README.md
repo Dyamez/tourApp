@@ -1,5 +1,13 @@
 # Milestone II
 
+## Team
+
+# Samantha Sta. Ana,
+
+# Edward James Manansala,
+
+# Jaziel Pat-Canche
+
 Issues:
 8/29
 alert not popping for search on Home.

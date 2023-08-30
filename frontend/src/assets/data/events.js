@@ -99,7 +99,7 @@ const events = [
   },
   {
     id: "06",
-    title: "Spring",
+    title: "Kyoto",
     city: "Japan",
     distance: 500,
     price: 634,
