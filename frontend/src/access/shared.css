@@ -1,0 +1,15 @@
+.shared_access h2 {
+  font-size: 2.4rem;
+  color: gainsboro;
+}
+
+.shared_access {
+  height: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(148, 73, 73, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/images/destination.jpg") no-repeat center center;
+  background-size: cover;
+}

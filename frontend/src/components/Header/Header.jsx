@@ -14,7 +14,7 @@ const linky = [
     display: "¯¯¯Information¯¯¯",
   },
   {
-    path: "/tours",
+    path: "/tripping",
     display: "|__Tours&Packages_________",
   },
 ];

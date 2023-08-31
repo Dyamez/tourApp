@@ -7,7 +7,7 @@ import Results from "../tabs/Results";
 import Tripping from "../tabs/Tripping";
 import { Navigate, Routes, Route } from "react-router-dom";
 
-const Router = () => {
+export default function Router() {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
@@ -19,6 +19,4 @@ const Router = () => {
       <Route path="tripping" element={<Tripping />} />
     </Routes>
   );
-};
-
-export default Router;
+}

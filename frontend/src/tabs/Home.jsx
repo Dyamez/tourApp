@@ -9,7 +9,7 @@ import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
 
-const Home = () => {
+export default function Home() {
   return (
     <>
       {}
@@ -41,7 +41,6 @@ const Home = () => {
                 <div className="texted_imgBox video">
                   <video src={glidingVid} alt="gliding video" controls />
                 </div>
-
                 <SearchBox />
               </Col>
             </Col>
@@ -73,6 +72,4 @@ const Home = () => {
       </section>
     </>
   );
-};
-
-export default Home;
+}
