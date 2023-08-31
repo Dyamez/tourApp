@@ -1,12 +1,14 @@
 import pic01 from "../images/pic1.jpg";
 //import pic02 from "../images/pic2.jpg";
 import pic03 from "../images/pic3.jpg";
-import pic04 from "../images/pic4.jpg";
+//import pic04 from "../images/pic4.jpg";
 import pic05 from "../images/pic5.jpg";
 import pic06 from "../images/pic6.jpg";
 import pic07 from "../images/pic7.jpg";
 import pic09 from "../images/pic9.jpg";
 import pic10 from "../images/pic10.jpg";
+import pic11 from "../images/pic11.jpg";
+import pic12 from "../images/pic12.jpg";
 
 const events = [
   {
@@ -40,7 +42,7 @@ const events = [
     title: "The Strip",
     city: "Las Vegas",
     distance: 100,
-    price: 300,
+    price: 500,
     maxGroupSize: 10,
     desc: "What happens in Vegas...",
     reviews: [
@@ -55,25 +57,30 @@ const events = [
   },
   {
     id: "03",
-    title: "Thailand",
-    city: "Thailand",
+    title: "Portland",
+    city: "Portland, Oregon",
     distance: 500,
     price: 800,
     maxGroupSize: 8,
-    desc: "Dreamy",
-    reviews: [],
-    avgRating: 4.5,
-    photo: pic03,
+    desc: "Rose Gardens and Bushes Pepper Parks are Legendary.",
+    reviews: [
+      {
+        name: "Ezikiel",
+        rating: 3.6,
+      },
+    ],
+    avgRating: 4.8,
+    photo: pic11,
     featured: true,
   },
   {
     id: "04",
-    title: "Thailand",
-    city: "Thailand",
+    title: "Los Angeles",
+    city: "Los Angeles, California",
     distance: 500,
     price: 700,
     maxGroupSize: 8,
-    desc: "Spectacular",
+    desc: "City of Angels",
     reviews: [
       {
         name: "George",
@@ -89,7 +96,7 @@ const events = [
       },
     ],
     avgRating: 4.9,
-    photo: pic04,
+    photo: pic12,
     featured: true,
   },
   {
