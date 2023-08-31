@@ -25,6 +25,8 @@ General code cleanup for theoretical brownie points.
 remixicon.com (icon)
 pngmart.com
 
+sample generic layout website: https://www.vansol.travel/
+
 Scrimba: https://scrimba.com/allcourses?topic=react
 
 Lama Dev: https://www.buymeacoffee.com/lamadev (https://www.youtube.com/watch?v=LelifxOrzvw)

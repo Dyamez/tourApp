@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../style/tripping.css";
 import { Row, Col, Container } from "reactstrap";
 //import Content from "./../access/Content";
@@ -8,14 +8,12 @@ import SearchBox from "./../access/SearchBox";
 import Shared from "../access/Shared";
 
 export default function Tripping() {
-  /*
-  React, { useEffect, useState }
-  let [setPage, page] = useState(0);
-  let [setPageCount, pageCount] = useState(0);
+  let [pageCount, setPageCount] = useState(0);
+  let [page, setPage] = useState(0);
   useEffect(() => {
-    let count = Math.ceil(5 / 8);
+    let count = Math.ceil(9 / 7);
     setPageCount(count);
-  }, [page]); */
+  }, [page]);
   return (
     <>
       <Shared name={"Every Trip Available"} />
@@ -34,20 +32,19 @@ export default function Tripping() {
                 <TripList event={event} />
               </Col>
             ))}{" "}
-            {/*
             <Col lg="11">
               <div className="twist d-flex  justify-content-center align-items-center mt-5 gap-4">
                 {[...Array(pageCount).keys()].map((number) => (
                   <span
                     key={number}
                     onClick={() => setPage(number)}
-                    //className={page === number ? "Awake" : ""}
+                    className={page === number ? "Awake" : ""}
                   >
                     {number + 1}
                   </span>
                 ))}
               </div>
-                </Col> */}
+            </Col>
           </Row>
         </Container>
       </section>
