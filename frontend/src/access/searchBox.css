@@ -3,8 +3,8 @@
   padding: 1rem 1rem;
   margin-top: 30px;
   width: max-content;
-  box-shadow: rgba(17, 12, 46, 0.17) 0px 49px 99px 0px;
-  border-radius: 49px;
+  box-shadow: rgba(64, 48, 153, 0.17) 5px 49px 99px 0px;
+  border-radius: 31px;
 }
 
 .form__group input {

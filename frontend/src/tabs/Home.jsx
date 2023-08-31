@@ -34,7 +34,7 @@ export default function Home() {
               </div>
             </Col>
             <Col lg="3">
-              <div className="texted_imgBox">
+              <div className="texted_imgBox gap-5">
                 <img src={taalImg} alt="taal volcano" />
               </div>
               <Col lg="20">
@@ -52,8 +52,10 @@ export default function Home() {
         <Container>
           <Row>
             <Col lg="3">
-              <h4 className="offerings_text">Our Services</h4>
-              <h3 className="head_text">Only the Best is what we offer</h3>
+              <h4 className="offerings_text">Our Services:</h4>
+              <h3 className="head_text">
+                Only the Best are what we offer... Guaranteed!
+              </h3>
             </Col>
             <MenuNote />
           </Row>
@@ -63,7 +65,7 @@ export default function Home() {
         <Container>
           <Row>
             <Col lg="11" classname="mb-6">
-              <UnderText underText={"Discover"} />
+              <UnderText className="UnderText" underText={"Discover"} />
               <h3 className="shownTitle">Recommended Tour Experience</h3>
             </Col>
             <ShownNotes />

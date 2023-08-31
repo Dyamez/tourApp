@@ -8,11 +8,11 @@
   margin-bottom: 2rem;
   font-size: 3.5rem;
   font-weight: 650;
-  color: var(--heading-color);
+  color: violet;
 }
 
 .underText_menu h1 .spotlight {
-  color: red;
+  color: lightblue;
 }
 
 .underText_menu p {
@@ -27,15 +27,15 @@
   width: 100%;
   height: 350px;
   border-radius: 20px;
-  border: 1px solid var(--secondary-color);
+  border: 3px solid gold;
 }
 
 .my_underText {
-  color: orangered;
+  color: green;
 }
 
 .offerings_text {
-  color: orange;
+  color: green;
   font-family: "Times New Roman", Times, serif;
   font-weight: 550;
   font-size: 2.5rem;
@@ -50,4 +50,9 @@
 .shownTitle {
   font-weight: 450;
   font-size: 2.5rem;
+}
+
+.UnderText {
+  padding-top: 3.5rem;
+  color: green;
 }

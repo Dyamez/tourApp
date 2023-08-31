@@ -13,7 +13,14 @@ Issues:
 
 Navbar on Header buttons not aligned to the end.
 
-Credits/References:
+## To do...
+
+mongodb || sql integration,
+Footer,
+Bootstrap/CSS and styling needs work?,
+General code cleanup for theoretical brownie points.
+
+# Credits/References:
 
 remixicon.com (icon)
 pngmart.com
