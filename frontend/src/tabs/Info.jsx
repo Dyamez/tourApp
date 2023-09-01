@@ -3,6 +3,7 @@ import "../style/info.css";
 import { Container, Row, Col, Form, ListGroup } from "reactstrap";
 import { useParams } from "react-router-dom";
 import eventData from "../assets/data/events";
+//import ratings from "../tools/rating";
 
 export default function Info() {
   const { id } = useParams();

@@ -3,7 +3,7 @@ import Home from "../tabs/Home";
 import Enlist from "../tabs/Enlist";
 import Info from "../tabs/Info";
 import Login from "../tabs/Login";
-//import Details from "../tabs/Details";
+import Details from "../tabs/Details";
 import Results from "../tabs/Results";
 import Tripping from "../tabs/Tripping";
 import { Navigate, Routes, Route } from "react-router-dom";
@@ -18,6 +18,7 @@ export default function Router() {
       <Route path="login" element={<Login />} />
       <Route path="tripping/search" element={<Results />} />
       <Route path="tripping" element={<Tripping />} />
+      <Route path="details" element={<Details />} />
     </Routes>
   );
 }

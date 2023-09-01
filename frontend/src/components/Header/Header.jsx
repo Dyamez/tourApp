@@ -10,7 +10,7 @@ const linky = [
     display: "__________Home__|",
   },
   {
-    path: "/info",
+    path: "/details",
     display: "¯¯¯Information¯¯¯",
   },
   {

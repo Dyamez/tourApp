@@ -77,6 +77,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
+      {/*
       <section>
         <Container>
           <Row>
@@ -115,14 +116,11 @@ export default function Home() {
                 </div>
               </div>
             </Col>{" "}
-            {/* 
-            <Col lg="7"></Col>
-            <div className="oppositeImg">
-              <img src={vacation} alt="" />
-  </div> */}
+            
           </Row>
         </Container>
-      </section>
+      </section> 
+  */}
     </>
   );
 }
