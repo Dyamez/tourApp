@@ -8,7 +8,7 @@ import ShownNotes from "../components/Shown/ShownNotes";
 import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
-import vacation from "../assets/images/vacation.jpg";
+//import vacation from "../assets/images/vacation.jpg";
 
 export default function Home() {
   return (
@@ -114,11 +114,12 @@ export default function Home() {
                   <h5>Established 2005</h5>
                 </div>
               </div>
-            </Col>
+            </Col>{" "}
+            {/* 
             <Col lg="7"></Col>
             <div className="oppositeImg">
               <img src={vacation} alt="" />
-            </div>
+  </div> */}
           </Row>
         </Container>
       </section>
