@@ -73,7 +73,8 @@ ul {
   color: inherit;
 }
 
-.under_text {
+.under_text,
+.UnderText {
   background: var(--secondary-color);
   font-family: var(--subtitle-font-name);
   width: max-content;

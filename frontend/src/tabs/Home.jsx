@@ -8,6 +8,7 @@ import ShownNotes from "../components/Shown/ShownNotes";
 import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
+import vacation from "../assets/images/vacation.jpg";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
             <Col lg="6">
               <div className="underText_menu">
                 <div className="my_underText d-flex align-items-center">
-                  <UnderText underText={"Destinations Await You!"} />
+                  <UnderText underText={"Ω Team Omega Travel and Tours"} />
+
                   <img src={globalImg} alt="globe" />
                 </div>
                 <h1>
@@ -65,10 +67,58 @@ export default function Home() {
         <Container>
           <Row>
             <Col lg="11" classname="mb-6">
-              <UnderText className="UnderText" underText={"Discover"} />
+              <UnderText
+                className="UnderText"
+                underText={"Discover Team Omega Ω"}
+              />
               <h3 className="shownTitle">Recommended Tour Experience</h3>
             </Col>
             <ShownNotes />
+          </Row>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          <Row>
+            <Col lg="7">
+              <div className="funTimes">
+                <UnderText underText={"From Dreams to Reality"} />
+                <h3>
+                  The time of your life <br />
+                  ΩTeam Omega at your service
+                </h3>
+                <p>
+                  We at ΩTeam Omega Travel & Tours, strive to give you the very
+                  best.
+                  <br />
+                  It is our mission to make those dreams into reality.
+                </p>
+              </div>
+              <div className="opposite d-flex align-items-center gap-4">
+                <div className="oppositeBx">
+                  <span>
+                    <h5>More than 1k</h5>
+                  </span>
+                  <h5>Satisfied clientele</h5>
+                </div>
+                <div className="oppositeBx">
+                  <span>
+                    <h5>More than 1k</h5>
+                  </span>
+                  <h5>Worry free tours</h5>
+                </div>
+                <div className="oppositeBx">
+                  <span>
+                    <h5>18 years of Expertise</h5>
+                  </span>
+                  <h5>Established 2005</h5>
+                </div>
+              </div>
+            </Col>
+            <Col lg="7"></Col>
+            <div className="oppositeImg">
+              <img src={vacation} alt="" />
+            </div>
           </Row>
         </Container>
       </section>

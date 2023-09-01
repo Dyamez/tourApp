@@ -31,7 +31,8 @@
 }
 
 .my_underText {
-  color: green;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .offerings_text {
@@ -55,4 +56,42 @@
 .UnderText {
   padding-top: 3.5rem;
   color: green;
+}
+
+.funTimes h3 {
+  font-size: 2.3rem;
+  font-weight: 550;
+  margin-top: 1.5rem;
+}
+.funTimes p {
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 1.5rem;
+}
+
+.oppositeImg img {
+  width: 90%;
+}
+
+.opposite {
+  margin-top: 1.8rem;
+}
+
+.oppositeBx h6 {
+  font-size: 1rem;
+  margin-top: 0.7rem;
+  color: black;
+}
+.oppositeBx span {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 650;
+  border-radius: 15px 15px 15px 15px;
+  width: 99px;
+  height: 99px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: skyblue;
 }
