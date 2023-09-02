@@ -12,7 +12,7 @@ export default function Details() {
             <div className="funTimes">
               <UnderText underText={"From Dreams to Reality"} />
               <h3>
-                The time of your life <br />
+                For the time of your life <br />
                 ΩTeam Omega at your service
               </h3>
               <p>

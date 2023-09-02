@@ -1,0 +1,116 @@
+.eventInside img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.eventInfo,
+.eventRev {
+  border-radius: 0.5rem;
+  border: 1px solid lightcoral;
+  padding: 1.5rem;
+}
+
+.eventInfo h2 {
+  font-size: 1.5rem;
+}
+
+.eventInfo span {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.eventInfo span i {
+  color: lightcoral;
+  font-size: 1rem;
+}
+
+.eventEx {
+  display: flex;
+  align-items: center;
+  column-gap: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.eventInfo h5 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.eventInfo p {
+  line-height: 30px;
+  font-size: 1rem;
+  color: gray;
+}
+
+.eventRev h4 {
+  margin-bottom: 1.5rem;
+}
+
+.ratingGrp span {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  color: lightcoral;
+  cursor: pointer;
+}
+
+.inputRev {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid lightcoral;
+}
+
+.inputRev input {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+  outline: none;
+}
+
+.perRev {
+  margin-top: 2.5rem;
+}
+
+.perObj {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.perObj img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.perObj h5,
+.perObj p,
+.perObj h6 {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.perObj p,
+.perObj h6 {
+  color: gray;
+}
+
+.perObj span {
+  font-weight: 500;
+}
+
+.perObj span i {
+  font-size: 1rem;
+  color: lightcoral;
+}
