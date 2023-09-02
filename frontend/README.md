@@ -1,12 +1,6 @@
 # Milestone II
 
-## Team
-
-### Samantha Sta. Ana,
-
-### Edward James Manansala,
-
-### Jaziel Pat-Canche
+## Team Omega
 
 Issues:
 8/29
