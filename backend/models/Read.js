@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const reviewSchema = new mongoose.Schema(
+const ReadSchema = new mongoose.Schema(
   {
     productId: {
       type: mongoose.Types.ObjectId,
@@ -10,7 +10,7 @@ const reviewSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    reviewText: {
+    ReadText: {
       type: String,
       required: true,
     },
@@ -25,4 +25,4 @@ const reviewSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("Review", reviewSchema);
+export default mongoose.model("Read", readSchema);
