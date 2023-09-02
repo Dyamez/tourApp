@@ -137,7 +137,7 @@ const events = [
   },
   {
     id: "07",
-    title: "Frenchy",
+    title: "Paris",
     city: "France",
     distance: 500,
     price: 674,
@@ -173,7 +173,7 @@ const events = [
     distance: 300,
     price: 998,
     maxGroupSize: 10,
-    desc: "Big Ben",
+    desc: "Big Ben and the Big British Clock",
     reviews: [
       {
         name: "James",
