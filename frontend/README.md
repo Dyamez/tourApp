@@ -1,6 +1,6 @@
 # Milestone II
 
-## Team Omega
+## Team Omega Ω
 
 Issues:
 8/29

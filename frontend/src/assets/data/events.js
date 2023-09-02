@@ -182,7 +182,7 @@ const events = [
     ],
     avgRating: 4.5,
     photo: pic01,
-    featured: true,
+    featured: false,
   },
 ];
 
