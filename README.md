@@ -1,12 +1,7 @@
 # # Milestone II
 
-## Team
+## Team Omega Ω
 
-### Samantha Sta. Ana,
-
-### Edward James Manansala,
-
-### Jaziel Pat-Canche
 
 ## cd/change directory/go into the /frontend folder, then from the VSCode terminal, run 'npm -i -y'. 
 then you can nodemon or npm start to see the project.
