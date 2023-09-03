@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import eventRoute from "./routes/events.js";
 
 dotenv.config();
 const app = express();
@@ -30,6 +31,7 @@ const connect = async () => {
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
+app.use("/events", eventRoute);
 
 app.listen(port, () => {
   connect();

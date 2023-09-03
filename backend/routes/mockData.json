@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Luneta Park",
+    "city": "Manila",
+    "address": "Southeast Asia",
+    "distance": 800,
+    "price": 888,
+    "maxGroupSize": 2,
+    "desc": "Historical landmark in Manila",
+    "reviews": [],
+
+    "photo": "pic09",
+    "featured": true
+  },
+  {
+    "title": "The Strip",
+    "city": "Las Vegas",
+    "address": "USA",
+    "distance": 100,
+    "price": 500,
+    "maxGroupSize": 10,
+    "desc": "What happens in Vegas...",
+    "reviews": [],
+
+    "photo": "pic10",
+    "featured": true
+  },
+  {
+    "title": "Portland",
+    "city": "Portland, Oregon",
+    "address": "USA",
+    "distance": 500,
+    "price": 800,
+    "maxGroupSize": 8,
+    "desc": "Rose Gardens and Bushes Pepper Parks are Legendary.",
+
+    "avgRating": 4.8,
+    "photo": "pic11",
+    "featured": true
+  },
+  {
+    "title": "Los Angeles",
+    "city": "Los Angeles, California",
+    "address": "USA",
+    "distance": 500,
+    "price": 700,
+    "maxGroupSize": 8,
+    "desc": "City of Angels",
+
+    "avgRating": 4.9,
+    "photo": "pic12",
+    "featured": true
+  },
+  {
+    "title": "Indonesia",
+    "city": "Indonesia",
+    "address": "Southeast Asia",
+    "distance": 500,
+    "price": 940,
+    "maxGroupSize": 8,
+    "desc": "Relaxing",
+    "reviews": [],
+
+    "photo": "pic05",
+    "featured": false
+  },
+  {
+    "title": "Kyoto",
+    "city": "Japan",
+    "address": "East Asia",
+    "distance": 500,
+    "price": 634,
+    "maxGroupSize": 8,
+    "desc": "Breathtaking",
+    "reviews": [],
+
+    "photo": "pic06",
+    "featured": false
+  },
+  {
+    "title": "Paris",
+    "city": "France",
+    "address": "Europe",
+    "distance": 500,
+    "price": 674,
+    "maxGroupSize": 8,
+    "desc": "Very French",
+    "reviews": [],
+
+    "photo": "pic07",
+    "featured": false
+  },
+  {
+    "title": "Thailand",
+    "city": "Thailand",
+    "address": "Southeast Asia",
+    "distance": 500,
+    "price": 578,
+    "maxGroupSize": 8,
+    "desc": "Fun",
+    "reviews": [],
+
+    "photo": "pic03",
+    "featured": false
+  },
+  {
+    "title": "Big Ben",
+    "city": "London",
+    "address": "Europe",
+    "distance": 300,
+    "price": 998,
+    "maxGroupSize": 10,
+    "desc": "Big Ben and the Big British Clock",
+    "reviews": [],
+
+    "photo": "pic01",
+    "featured": false
+  }
+]

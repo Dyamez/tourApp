@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const TripSchema = new mongoose.Schema(
+const eventSchema = new mongoose.Schema(
   {
     title: {
       type: String,
@@ -51,4 +51,4 @@ const TripSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("Trip", tripSchema);
+export default mongoose.model("Event", eventSchema);
