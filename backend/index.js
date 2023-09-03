@@ -4,6 +4,8 @@ import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import eventRoute from "./routes/events.js";
+import personRoute from "./routes/person.js";
+import logRoute from "./routes/log.js";
 
 dotenv.config();
 const app = express();
@@ -31,7 +33,9 @@ const connect = async () => {
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
+app.use("/log", logRoute);
 app.use("/events", eventRoute);
+app.use("/persons", personRoute);
 
 app.listen(port, () => {
   connect();
