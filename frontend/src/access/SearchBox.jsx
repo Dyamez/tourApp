@@ -1,21 +1,36 @@
 import React, { useRef } from "react";
 import "./searchBox.css";
 import { Form, FormGroup, Col } from "reactstrap";
+import { useNavigate } from "react-router-dom";
+import { BASE_URL } from "../tools/configuration";
 
 export default function SearchBox() {
   const placesRf = useRef("");
   const lengthRf = useRef(0);
   const capacityRf = useRef(0);
+  const navigate = useNavigate();
 
-  const searchMee = () => {
+  const searchMee = async () => {
     const places = placesRf.current.value;
     const length = lengthRf.current.value;
     const capacity = capacityRf.current.value;
     if (places === "" || length === "" || capacity === "") {
       return alert("please fill all boxes");
     }
-  };
 
+    const res = await fetch(
+      `${BASE_URL}/events/search/getEventBySearch?city=${places}&distance=${length}&maxGroupSize=${capacity}`
+    );
+
+    if (!res.ok) alert("Something went wrong");
+
+    const result = await res.json();
+
+    navigate(
+      `events/search/getEventBySearch?city=${places}&distance=${length}&maxGroupSize=${capacity}`,
+      { state: result.data }
+    );
+  };
   return (
     <Col lg="12">
       <div className="search_box">

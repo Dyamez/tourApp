@@ -10,7 +10,7 @@ export const registration = async (req, res) => {
     const newPerson = new Person({
       username: req.body.username,
       email: req.body.email,
-      password: hash,
+      password: req.body.password,
       photo: req.body.photo,
     });
 
@@ -41,15 +41,15 @@ export const login = async (req, res) => {
     if (!checkCorrectPassword) {
       return res
         .status(401)
-        .json({ susccess: false, message: "not correct username or password" });
+        .json({ succcess: false, message: "not correct username or password" });
     }
 
     const { password, role, ...rest } = person.doc;
 
     const token = jwt.sign(
-      { id: person._id, role: person.role },
+      { id: person.id, role: person.role },
       process.env.JWT_SECRET_KEY,
-      { expiresIn: "15d" }
+      { expiresIn: "45d" }
     );
 
     res
@@ -58,8 +58,13 @@ export const login = async (req, res) => {
         expires: token.expiresIn,
       })
       .status(200)
-      .json({ token, data: { ...rest }, role });
+      .json({
+        success: true,
+        message: "you have logged-in",
+        data: { ...rest },
+        role,
+      });
   } catch (error) {
-    res.status(500).json({ susccess: false, message: "error" });
+    res.status(500).json({ success: false, message: "try again" });
   }
 };

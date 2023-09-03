@@ -33,7 +33,7 @@ const connect = async () => {
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
-app.use("/log", logRoute);
+app.use("/auth", logRoute);
 app.use("/events", eventRoute);
 app.use("/persons", personRoute);
 

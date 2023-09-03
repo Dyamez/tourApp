@@ -1,4 +1,4 @@
-import Person from "../models/person.js/";
+import Person from "../models/Person.js/";
 
 export const createPerson = async (req, res) => {
   const newPerson = new Person(req.body);
@@ -76,7 +76,7 @@ export const getAllPerson = async (req, res) => {
   //const page = parseInt(req.query.page);
   //console.log(page);
   try {
-    const Persons = await Person.find({});
+    const persons = await Person.find({});
     //.skip(page * 2)
     //.limit(2);
     res

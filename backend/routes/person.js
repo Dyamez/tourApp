@@ -1,6 +1,11 @@
 import express from "express";
+import {
+  deletePerson,
+  updatePerson,
+  getSinglePerson,
+  getAllPerson,
+} from "../controllers/personController.js";
 const router = express.Router();
-import { updatePerson } from "../controllers/personController.js";
 
 router.put("/:id", updatePerson);
 

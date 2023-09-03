@@ -29,4 +29,6 @@ const personSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("Person", personSchema);
+export default mongoose.model["Person"] || ("Person", personSchema);
+
+//["Person"] ||
