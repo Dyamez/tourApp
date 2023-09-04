@@ -44,8 +44,16 @@ export default function Home() {
                 <div className="texted_imgBox video">
                   <video src={glidingVid} alt="gliding video" controls />
                 </div>
-                <SearchBox />
               </Col>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          <Row>
+            <Col>
+              <SearchBox />
             </Col>
           </Row>
         </Container>

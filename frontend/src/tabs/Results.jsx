@@ -11,17 +11,16 @@ export default function Result() {
 
   return (
     <>
-      <Shared title={"Event Search Result"} />
+      <Shared name={"Event Search Result"} />
       <section>
         <Container>
           <Row>
             {data.length === 0 ? (
-              <h4 className="text-center"> Event no result</h4>
+              <h4 className="text-center">Event no result</h4>
             ) : (
               data?.map((event) => (
-                <Col lg="9" className="mb-4" key={event.__id}>
-                  {" "}
-                  <TripList event={event} />{" "}
+                <Col lg="9" className="mb-4" key={event.id}>
+                  <TripList event={event} />
                 </Col>
               ))
             )}

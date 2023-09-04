@@ -1,17 +1,15 @@
 import React from "react";
 import TripList from "../../access/TripList";
-//import eventData from "../../assets/data/events";
 import { Col } from "reactstrap";
 import getDb from "./../../line/getDb";
 import { BASE_URL } from "./../../tools/configuration";
 
-const FeaturedEventList = () => {
+export default function FeaturedEventList() {
   const {
     data: featuredEvents,
     loading,
     error,
   } = getDb(`${BASE_URL}/events/search/getFeaturedEvent`);
-  console.log(featuredEvents);
 
   return (
     <>
@@ -26,6 +24,4 @@ const FeaturedEventList = () => {
         ))}
     </>
   );
-};
-
-export default FeaturedEventList;
+}
