@@ -2,11 +2,10 @@
 
 ## Team Omega Ω
 
+## cd/change directory/go into the /frontend folder, then from the VSCode terminal, run 'npm -i -y'.
 
-## cd/change directory/go into the /frontend folder, then from the VSCode terminal, run 'npm -i -y'. 
-then you can nodemon or npm start to see the project.
-
-
+Same goes to modify the /backend folder.
+Then you can nodemon or npm start-dev to see the project.
 
 Issues:
 8/29

@@ -11,15 +11,15 @@ export default function SearchBox() {
   const navigate = useNavigate();
 
   const searchMee = async () => {
-    const places = placesRf.current.value;
-    const length = lengthRf.current.value;
-    const capacity = capacityRf.current.value;
-    if (places === "" || length === "" || capacity === "") {
-      return alert("please fill all boxes");
+    const city = placesRf.current.value;
+    const distance = lengthRf.current.value;
+    const maxGroupSize = capacityRf.current.value;
+    if (city === "" || distance === "" || maxGroupSize === "") {
+      return alert("All Boxes must be Filled");
     }
 
     const res = await fetch(
-      `${BASE_URL}/events/search/getEventBySearch?city=${places}&distance=${length}&maxGroupSize=${capacity}`
+      `${BASE_URL}/events/search/getEventBySearch?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`
     );
 
     if (!res.ok) alert("Something went wrong");
@@ -27,7 +27,7 @@ export default function SearchBox() {
     const result = await res.json();
 
     navigate(
-      `events/search/getEventBySearch?city=${places}&distance=${length}&maxGroupSize=${capacity}`,
+      `tripping/search/?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`,
       { state: result.data }
     );
   };

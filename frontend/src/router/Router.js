@@ -6,6 +6,7 @@ import Login from "../tabs/Login";
 import Details from "../tabs/Details";
 import Results from "../tabs/Results";
 import Tripping from "../tabs/Tripping";
+import Response from "../tabs/Response";
 import { Navigate, Routes, Route } from "react-router-dom";
 
 export default function Router() {
@@ -16,9 +17,10 @@ export default function Router() {
       <Route path="enlist" element={<Enlist />} />
       <Route path="tripping/:id" element={<Info />} />
       <Route path="login" element={<Login />} />
-      <Route path="tripping/search" element={<Results />} />
+      <Route path="/home/tripping/search" element={<Results />} />
       <Route path="tripping" element={<Tripping />} />
       <Route path="details" element={<Details />} />
+      <Route path="home/events/search/" element={<Response />} />
     </Routes>
   );
 }

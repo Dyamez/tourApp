@@ -20,7 +20,7 @@ const FeaturedEventList = () => {
       {!loading &&
         !error &&
         featuredEvents?.map((event) => (
-          <Col lg="3" md="4" sm="6" className="mb-4" key={event.id}>
+          <Col lg="3" md="4" sm="6" className="mb-4" key={event._id}>
             <TripList event={event} />
           </Col>
         ))}
