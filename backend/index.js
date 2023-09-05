@@ -24,9 +24,9 @@ const connect = async () => {
       useUnifiedTopology: true,
     });
 
-    console.log("Accessed MongoDB");
+    console.log("Mongoloid!");
   } catch (error) {
-    console.log("connection denied");
+    console.log("See if your missing something");
   }
 };
 
@@ -39,5 +39,5 @@ app.use("/persons", personRoute);
 
 app.listen(port, () => {
   connect();
-  console.log("successful connection", port);
+  console.log("successful connection to DataBase", port);
 });

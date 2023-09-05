@@ -31,4 +31,4 @@ const personSchema = new mongoose.Schema(
 
 export default mongoose.model["Person"] || ("Person", personSchema);
 
-//["Person"] ||
+//["Person"] ||  'compilation error fix'

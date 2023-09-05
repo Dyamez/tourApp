@@ -97,7 +97,7 @@ export const getEventBySearch = async (req, res) => {
   try {
     const events = await Event.find({
       city,
-      distance: { $gte: maxGroupSize },
+      distance: { $gte: distance },
       maxGroupSize: { $gte: maxGroupSize },
     });
     res.status(200).json({
