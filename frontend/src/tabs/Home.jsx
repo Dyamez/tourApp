@@ -8,6 +8,7 @@ import ShownNotes from "../components/Shown/ShownNotes";
 import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
+
 //import vacation from "../assets/images/vacation.jpg";
 
 export default function Home() {
@@ -43,8 +44,16 @@ export default function Home() {
                 <div className="texted_imgBox video">
                   <video src={glidingVid} alt="gliding video" controls />
                 </div>
-                <SearchBox />
               </Col>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          <Row>
+            <Col>
+              <SearchBox />
             </Col>
           </Row>
         </Container>
@@ -69,58 +78,14 @@ export default function Home() {
             <Col lg="11" classname="mb-6">
               <UnderText
                 className="UnderText"
-                underText={"Discover Team Omega Ω"}
+                underText={"Team Omega Ω Tours & Travel"}
               />
-              <h3 className="shownTitle">Recommended Tour Experience</h3>
+              <h3 className="shownTitle">See what we have to offer!</h3>
             </Col>
             <ShownNotes />
           </Row>
         </Container>
       </section>
-      {/*
-      <section>
-        <Container>
-          <Row>
-            <Col lg="7">
-              <div className="funTimes">
-                <UnderText underText={"From Dreams to Reality"} />
-                <h3>
-                  The time of your life <br />
-                  ΩTeam Omega at your service
-                </h3>
-                <p>
-                  We at ΩTeam Omega Travel & Tours, strive to give you the very
-                  best.
-                  <br />
-                  It is our mission to make those dreams into reality.
-                </p>
-              </div>
-              <div className="opposite d-flex align-items-center gap-4">
-                <div className="oppositeBx">
-                  <span>
-                    <h5>More than 1k</h5>
-                  </span>
-                  <h5>Satisfied clientele</h5>
-                </div>
-                <div className="oppositeBx">
-                  <span>
-                    <h5>More than 1k</h5>
-                  </span>
-                  <h5>Worry free tours</h5>
-                </div>
-                <div className="oppositeBx">
-                  <span>
-                    <h5>18 years of Expertise</h5>
-                  </span>
-                  <h5>Established 2005</h5>
-                </div>
-              </div>
-            </Col>{" "}
-            
-          </Row>
-        </Container>
-      </section> 
-  */}
     </>
   );
 }

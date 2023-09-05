@@ -9,6 +9,7 @@ import pic09 from "../images/pic9.jpg";
 import pic10 from "../images/pic10.jpg";
 import pic11 from "../images/pic11.jpg";
 import pic12 from "../images/pic12.jpg";
+import pic13 from "../images/pic13.jpg";
 
 const events = [
   {
@@ -57,20 +58,20 @@ const events = [
   },
   {
     id: "03",
-    title: "Portland",
-    city: "Portland, Oregon",
-    distance: 500,
-    price: 800,
-    maxGroupSize: 8,
-    desc: "Rose Gardens and Bushes Pepper Parks are Legendary.",
+    title: "Endgame Vacation",
+    city: "Pyongyang, North Korea",
+    distance: 700,
+    price: 100,
+    maxGroupSize: 1,
+    desc: "Supreme Goodtime with Relaxed Atmosphere.",
     reviews: [
       {
-        name: "Ezikiel",
+        name: "Kim",
         rating: 3.6,
       },
     ],
     avgRating: 4.8,
-    photo: pic11,
+    photo: pic13,
     featured: true,
   },
   {
@@ -182,6 +183,24 @@ const events = [
     ],
     avgRating: 4.5,
     photo: pic01,
+    featured: false,
+  },
+  {
+    id: "10",
+    title: "Portland",
+    city: "Portland, Oregon",
+    distance: 500,
+    price: 800,
+    maxGroupSize: 8,
+    desc: "Rose Gardens and Bushes Pepper Parks are Legendary.",
+    reviews: [
+      {
+        name: "Ezikiel",
+        rating: 3.6,
+      },
+    ],
+    avgRating: 4.8,
+    photo: pic11,
     featured: false,
   },
 ];

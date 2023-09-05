@@ -1,21 +1,36 @@
 import React, { useRef } from "react";
 import "./searchBox.css";
 import { Form, FormGroup, Col } from "reactstrap";
+import { useNavigate } from "react-router-dom";
+import { BASE_URL } from "../tools/configuration";
 
 export default function SearchBox() {
   const placesRf = useRef("");
   const lengthRf = useRef(0);
   const capacityRf = useRef(0);
+  const navigate = useNavigate();
 
-  const searchMee = () => {
-    const places = placesRf.current.value;
-    const length = lengthRf.current.value;
-    const capacity = capacityRf.current.value;
-    if (places === "" || length === "" || capacity === "") {
-      return alert("please fill all boxes");
+  const searchMee = async () => {
+    const city = placesRf.current.value;
+    const distance = lengthRf.current.value;
+    const maxGroupSize = capacityRf.current.value;
+    if (city === "" || distance === "" || maxGroupSize === "") {
+      return alert("All Boxes must be Filled");
     }
-  };
 
+    const res = await fetch(
+      `${BASE_URL}/events/search/getEventBySearch?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`
+    );
+
+    if (!res.ok) alert("Something went wrong");
+
+    const result = await res.json();
+
+    navigate(
+      `tripping/search/?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`,
+      { state: result.data }
+    );
+  };
   return (
     <Col lg="12">
       <div className="search_box">

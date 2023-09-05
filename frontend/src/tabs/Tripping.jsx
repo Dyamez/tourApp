@@ -4,26 +4,20 @@ import { Row, Col, Container } from "reactstrap";
 //import Content from "./../access/Content";
 import eventData from "../assets/data/events";
 import TripList from "./../access/TripList";
-import SearchBox from "./../access/SearchBox";
+//import SearchBox from "./../access/SearchBox";
 import Shared from "../access/Shared";
 
 export default function Tripping() {
   let [pageCount, setPageCount] = useState(0);
   let [page, setPage] = useState(0);
   useEffect(() => {
-    let count = Math.ceil(9 / 7);
+    let count = Math.ceil(4 / 7);
     setPageCount(count);
   }, [page]);
   return (
     <>
       <Shared name={"Every Trip Available"} />
-      <section>
-        <Container>
-          <Row>
-            <SearchBox />
-          </Row>
-        </Container>
-      </section>
+
       <section className="dest">
         <Container>
           <Row>
