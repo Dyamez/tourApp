@@ -22,6 +22,8 @@ cd/change directory then go into the /frontend or /backend folder. From the VSCo
 
 On the root directory, run 'npm run dev'.
 
+.env file needed for backend to set PORT & MONGODB_URI. Not uploaded with repo for security reasons.
+
 Issues: 8/29
 
 Navbar on Header buttons not aligned to the end.
