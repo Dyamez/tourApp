@@ -3,19 +3,24 @@
 ### Render Deployed
 
 https://travel-app-lf85.onrender.com
+
 Render takes up to 3 to 5 minutes at times to start serving the project webpage.
 
 ## Team Omega Ω
 
 Run "npm run dev" on root. It would run both frontend and backend(mongoDB) concurrently.
+
 Local: http://localhost:3000
+
 Backend: http://localhost:5000
 
 ## Pre-Requisite:
 
-'npm' must first be installed on three folders first.
+'npm' must first be installed on all three folders first.
+
 cd/change directory then go into the /frontend or /backend folder. From the VSCode terminal, run 'npm -i -y' all folders, root, frontend and backend for it to work.
-Same goes to modify the /backend folder. Go Back to root directory, run npm i, then start the project with "npm run dev"
+
+On the root directory, run 'npm run dev'.
 
 Issues: 8/29
 
