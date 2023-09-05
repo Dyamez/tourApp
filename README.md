@@ -16,7 +16,7 @@ Backend: http://localhost:5000
 
 ## Pre-Requisite:
 
-'npm' must first be installed on all three folders first.
+'npm' must first be installed on all three folders.
 
 cd/change directory then go into the /frontend or /backend folder. From the VSCode terminal, run 'npm -i -y' all folders, root, frontend and backend for it to work.
 
