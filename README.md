@@ -4,7 +4,7 @@
 
 https://travel-app-lf85.onrender.com
 
-Render takes up to 3 to 5 minutes at times to start serving the project webpage.
+Render may take a while at times to start serving the project webpage.
 
 ## Team Omega Ω
 
