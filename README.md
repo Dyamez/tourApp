@@ -1,14 +1,21 @@
 # Milestone II
 
-https://travel-app-lf85.onrender.com/home
+### Render Deployed
 
-Team Omega Ω
+https://travel-app-lf85.onrender.com
+Render takes up to 3 to 5 minutes at times to start serving the project webpage.
+
+## Team Omega Ω
+
 Run "npm run dev" on root. It would run both frontend and backend(mongoDB) concurrently.
 Local: http://localhost:3000
+Backend: http://localhost:5000
 
-Originally from repo https://github.com/Dyamez/tourApp 9/4/23 with 48 commits on 2 branches.
-Due to file size error by github, migrated the project here @ https://github.com/Dyamez/Travel_App
-changes: cd/change directory/go into the /frontend folder, then from the VSCode terminal, run 'npm -i -y'. Same goes to modify the /backend folder. Go Back to root directory, run npm i, then start the project with "npm run dev"
+## Pre-Requisite:
+
+'npm' must first be installed on three folders first.
+cd/change directory then go into the /frontend or /backend folder. From the VSCode terminal, run 'npm -i -y' all folders, root, frontend and backend for it to work.
+Same goes to modify the /backend folder. Go Back to root directory, run npm i, then start the project with "npm run dev"
 
 Issues: 8/29
 
