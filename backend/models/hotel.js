@@ -3,35 +3,35 @@ import mongoose from "mongoose";
 const HotelSchema = new mongoose.Schema({
     name: {
         type: String,
-        require: true
+        required: true
     },
     type: {
         type: String,
-        require: true
+        required: true
     },
     city: {
         type: String,
-        require: true
+        required: true
     },
     address: {
         type: String,
-        require: true
+        required: true
     },
     distance: {
         type: String,
-        require: true
+        required: true
     },
     photos: {
         type: [String],
-        require: true
+        required: true
     },
     title: {
         type: String,
-        require: true
+        required: true
     },
     desc: {
         type: String,
-        require: true
+        required: true
     },
     rating: {
         type: Number,
@@ -43,11 +43,11 @@ const HotelSchema = new mongoose.Schema({
     },
     cheapestPrice: {
         type: String,
-        require: true
+        required: true
     },
     featured: {
         type: Boolean,
-        require: false
+        required: false
     }
 })
 
