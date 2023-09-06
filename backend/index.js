@@ -30,7 +30,9 @@ const connect = async () => {
 
     console.log("Mongoloid!");
   } catch (error) {
-    console.log("See if your missing something");
+    console.log(
+      "Make .env on root of /backend, add PORT=???? and MONGO_URI=mongodb+srv://YourCredentials...."
+    );
   }
 };
 
