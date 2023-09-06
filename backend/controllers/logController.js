@@ -25,7 +25,7 @@ export const registration = async (req, res) => {
 export const login = async (req, res) => {
   try {
     const email = req.body.email;
-    const user = await Person.findOne({ email });
+    const person = await Person.findOne({ email });
 
     if (!person) {
       return res
@@ -47,9 +47,9 @@ export const login = async (req, res) => {
     const { password, role, ...rest } = person.doc;
 
     const token = jwt.sign(
-      { id: person.id, role: person.role },
+      { id: user._id, role: user.role },
       process.env.JWT_SECRET_KEY,
-      { expiresIn: "45d" }
+      { expiresIn: "25d" }
     );
 
     res

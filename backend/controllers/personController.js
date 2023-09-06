@@ -50,7 +50,7 @@ export const deletePerson = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "check if succeded",
+      message: "failure to delete",
     });
   }
 };

@@ -9,7 +9,7 @@ import logRoute from "./routes/log.js";
 
 dotenv.config();
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 6000;
 const corsOptions = {
   origin: true,
   credentials: true,
