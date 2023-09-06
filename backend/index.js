@@ -7,6 +7,11 @@ import eventRoute from "./routes/events.js";
 import personRoute from "./routes/persons.js";
 import logRoute from "./routes/log.js";
 
+import authRoute from "./routes/auth.js";
+import usersRoute from "./routes/users.js";
+import hotelsRoute from "./routes/hotels.js";
+import rooomsRoute from "./routes/rooms.js";
+
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 6000;
@@ -39,9 +44,14 @@ const connect = async () => {
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
-app.use("/auth", logRoute);
+app.use("/log", logRoute);
 app.use("/events", eventRoute);
 app.use("/persons", personRoute);
+
+app.use("/auth", authRoute);
+app.use("/users", usersRoute);
+app.use("/hotels", hotelsRoute);
+app.use("/rooms", rooomsRoute);
 
 app.listen(port, () => {
   connect();

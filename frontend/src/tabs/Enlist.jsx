@@ -1,28 +1,58 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "../style/login.css";
 import { FormGroup, Col, Form, Row, Button, Container } from "reactstrap";
 import regImg from "../assets/images/register.webp";
 import userIcon from "../assets/images/head.png";
-import { Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import { AuthDefine } from "../define/AuthDefine";
+import { BASE_URL } from "../tools/configuration";
 
 export default function Enlist() {
-  const loginDetails = (e) => {
+  /*const nameChange = (e) => {
     setCredentials((prev) => ({ ...prev, [e.target.id]: e.target.value }));
   };
-  const regClk = (e) => {
+  const nameClick = (e) => {
     e.preventDefault();
-  };
-  const [setCredentials] = useState({
+  }; */
+  const [credentials, setCredentials] = useState({
     userName: undefined,
     email: undefined,
     password: undefined,
   });
+  const { dispatch } = useContext(AuthDefine);
+  const navigate = useNavigate();
+
+  const nameChange = (e) => {
+    setCredentials((prev) => ({ ...prev, [e.target.id]: e.target.value }));
+  };
+
+  const nameClick = async (e) => {
+    e.preventDefault();
+
+    try {
+      const res = await fetch(`${BASE_URL}/auth/register`, {
+        method: "post",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(credentials),
+      });
+      const result = await res.json();
+
+      if (!res.ok) alert(result.message);
+
+      dispatch({ type: "REGISTER_SUCCESS" });
+      navigate("/login");
+    } catch (err) {
+      alert(err.message);
+    }
+  };
   return (
     <section>
       <Container>
         <Row>
           <Col lg="8" className="m-auto">
-            <div className="logiContainer d-flex justify-content-between">
+            <div className="loginContainer d-flex justify-content-between">
               <div className="loginImg">
                 <img src={regImg} alt="" />
               </div>
@@ -34,20 +64,20 @@ export default function Enlist() {
                 <h2>Register</h2>
 
                 <Form>
-                  <FormGroup onSubmit={regClk}>
+                  <FormGroup onSubmit={nameClick}>
                     <input
                       type="text"
                       placeholder="login name"
                       id="login name"
-                      onChange={loginDetails}
+                      onChange={nameChange}
                     />
                   </FormGroup>
-                  <FormGroup onSubmit={regClk}>
+                  <FormGroup onSubmit={nameClick}>
                     <input
                       type="email"
                       placeholder="Email"
                       id="email"
-                      onChange={loginDetails}
+                      onChange={nameChange}
                     />
                   </FormGroup>
                   <FormGroup>
@@ -55,7 +85,7 @@ export default function Enlist() {
                       type="password"
                       placeholder="Password"
                       id="password"
-                      onChange={loginDetails}
+                      onChange={nameChange}
                     />
                   </FormGroup>
                   <Button className="btn btn-info secBtn" type="submit">
