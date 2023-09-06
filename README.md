@@ -24,7 +24,7 @@ On the root directory, run 'npm run dev'.
 
 .env file needed for backend to set PORT & MONGODB_URI. Not uploaded with repo for security reasons.
 
-on root, if 'npm run dev' does not work, run 'npm i -d concurrently' & 'npm i -d nodemon'.
+on root, if 'npm run dev' does not work, run 'npm i -d concurrently' & 'npm i -d nodemon'
 
 Issues: 8/29
 
