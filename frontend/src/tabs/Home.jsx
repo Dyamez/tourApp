@@ -2,12 +2,13 @@ import React from "react";
 import "../style/home.css";
 import { Row, Container, Col } from "reactstrap";
 import taalImg from "../assets/images/taal.webp";
-import glidingVid from "../assets/images/glidiing.mp4";
+//import glidingVid from "../assets/images/glidiing.mp4";
 import UnderText from "../access/underText";
 import ShownNotes from "../components/Shown/ShownNotes";
 import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
+import vegasImg from "../assets/images/pic14.jpg";
 
 //import vacation from "../assets/images/vacation.jpg";
 
@@ -41,10 +42,15 @@ export default function Home() {
                 <img src={taalImg} alt="taal volcano" />
               </div>
               <Col lg="20">
+                <div className="texted_imgBox gap-5">
+                  <img src={vegasImg} alt="vegas over strip" />
+                </div>
+              </Col>
+              {/*<Col lg="20">
                 <div className="texted_imgBox video">
                   <video src={glidingVid} alt="gliding video" controls />
                 </div>
-              </Col>
+  </Col> */}
             </Col>
           </Row>
         </Container>
