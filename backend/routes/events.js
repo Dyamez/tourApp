@@ -8,7 +8,7 @@ import {
   getEventBySearch,
   getFeaturedEvent,
   getEventCount,
-} from "../controllers/EventController.js";
+} from "../controllers/eventControllers.js";
 
 const router = express.Router();
 

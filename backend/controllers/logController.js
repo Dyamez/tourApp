@@ -2,7 +2,7 @@ import Person from "../models/Person.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
-export const registration = async (req, res) => {
+export const register = async (req, res) => {
   try {
     const salt = bcrypt.genSaltSync(10);
     const hash = bcrypt.hashSync(req.body.password, salt);

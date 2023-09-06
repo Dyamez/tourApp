@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import eventRoute from "./routes/events.js";
-import personRoute from "./routes/person.js";
+import personRoute from "./routes/persons.js";
 import logRoute from "./routes/log.js";
 
 dotenv.config();
