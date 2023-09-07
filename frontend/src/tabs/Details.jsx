@@ -4,6 +4,8 @@ import { Row, Container, Col } from "reactstrap";
 import UnderText from "../access/underText";
 import FeaturedEventList from "../components/FeaturedEventList/FeaturedEventList";
 
+import ShownHotel from "../components/Shown/ShownHotel";
+
 export default function Details() {
   return (
     <>
@@ -60,6 +62,22 @@ export default function Details() {
             </Col>
             {/*backend MongoDB list*/}
             <FeaturedEventList />
+          </Row>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          <Row>
+            <Col lg="11" classname="mb-6">
+              <UnderText
+                className="UnderText"
+                underText={"Hotel Accomodations Available"}
+              />
+              <h3 className="shownTitle">
+                Premier Hotels for all destinations
+              </h3>
+            </Col>
+            <ShownHotel />
           </Row>
         </Container>
       </section>

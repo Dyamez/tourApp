@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "64f8e3e6dff2deb9522bbc6a"
+  },
+  "name": "The Manila Hotel",
+  "city": "Manila",
+  "address": "Manila, Philippines",
+  "distance": "40",
+  "title": "Manila Hotel",
+  "desc": "historic five-star hotel located along Manila Bay in Manila",
+  "rooms": [],
+  "featured": true,
+  "__v": 0,
+  "photo": "https://www.manila-hotel.com.ph/wp-content/uploads/2020/06/TMH_Facade_1-optimized-e1598429179579.jpg"
+}]

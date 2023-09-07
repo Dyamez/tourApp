@@ -18,7 +18,7 @@ export default function FeaturedEventList() {
       {error && <h4>{error}</h4>}
       {!loading &&
         !error &&
-        featuredEvents?.map((event, hotel) => (
+        featuredEvents?.map((event) => (
           <Col lg="3" md="4" sm="6" className="mb-4" key={event._id}>
             <TripList event={event} />
           </Col>

@@ -48,7 +48,7 @@ export default function HotelList({ hotel }) {
               ${price} <span> /each individual</span>
             </h4>
             <button className="reserve_btn">
-              <Link to={`/tripping/${id}`}>Reserve your Tour</Link>
+              <Link to={`/tripping/${id}`}>Book your Room</Link>
             </button>
           </div>
         </CardBody>
