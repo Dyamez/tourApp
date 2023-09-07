@@ -3,6 +3,7 @@ import TripList from "../../access/TripList";
 import { Col } from "reactstrap";
 import getDb from "./../../line/getDb";
 import { BASE_URL } from "./../../tools/configuration";
+//import HotelList from "../../access/HotelList";
 
 export default function FeaturedEventList() {
   const {
@@ -17,7 +18,7 @@ export default function FeaturedEventList() {
       {error && <h4>{error}</h4>}
       {!loading &&
         !error &&
-        featuredEvents?.map((event) => (
+        featuredEvents?.map((event, hotel) => (
           <Col lg="3" md="4" sm="6" className="mb-4" key={event._id}>
             <TripList event={event} />
           </Col>

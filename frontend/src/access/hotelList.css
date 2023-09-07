@@ -1,0 +1,88 @@
+.hotel_img img {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.card {
+  box-shadow: black 0px 17px 45px -11px;
+}
+
+.hotel_img {
+  position: relative;
+}
+
+.hotel_img span {
+  z-index: 10;
+  background: lightcoral;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  height: max-content;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px 0 0 0;
+}
+
+.reserve_btn {
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+  background-color: lightcoral !important;
+  padding: 0.6rem;
+  border-radius: 14px 0 14px 0;
+  font-style: normal;
+}
+
+.reserve_btn:hover {
+  transform: scale(1.1);
+  color: lightskyblue;
+}
+
+.list_up span i {
+  color: lightpink;
+}
+
+.hotel_title a {
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+}
+
+.hotel_title a:hover {
+  color: lightpink;
+}
+
+.list_bottom h4 {
+  color: lightpink;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.hotel_location {
+  color: lightcoral;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.hotel_rating i,
+.hotel_location i {
+  font-size: 1.5rem;
+}
+
+.hotel_title {
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: target;
+}
+
+.list_bottom h4 span {
+  font-weight: 500;
+  color: gray;
+  font-size: 1rem;
+}
+
+.hotel_rating {
+  font-size: 0.8rem;
+  color: gray;
+}
