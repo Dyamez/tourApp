@@ -9,6 +9,7 @@ import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
 import vegasImg from "../assets/images/pic14.jpg";
+import SearchHotel from "../access/searchHotel";
 
 //import vacation from "../assets/images/vacation.jpg";
 
@@ -59,6 +60,7 @@ export default function Home() {
         <Container>
           <Row>
             <Col>
+              <h3>Find your next Adventure</h3>
               <SearchBox />
             </Col>
           </Row>
@@ -76,6 +78,11 @@ export default function Home() {
             </Col>
             <MenuNote />
           </Row>
+          <br />
+          <br />
+          <h3>We offer Hotel Booking Reservations!</h3>
+          <h4>Find the perfect hotel, start here!</h4>
+          <SearchHotel />
         </Container>
       </section>
       <section>
