@@ -1,4 +1,4 @@
-import Person from "../models/person.js/";
+import Person from "../models/Person.js";
 
 export const createPerson = async (req, res) => {
   const newPerson = new Person(req.body);

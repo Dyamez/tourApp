@@ -11,5 +11,55 @@
     "maxGroupSize": 5,
     "reviews": [],
     "featured": true
+  },
+  {
+    "title": "Bellagio",
+    "city": "Las Vegas",
+    "distance": 30,
+    "price": 999,
+    "maxGroupSize": 10,
+    "desc": "Great Premier Hotel in Las Vegas",
+    "reviews": [
+      {
+        "name": "Goku",
+        "rating": 5.0
+      },
+      {
+        "name": "Krillin",
+        "rating": 5.0
+      },
+      {
+        "name": "Piccolo",
+        "rating": 5.0
+      }
+    ],
+    "avgRating": 4.9,
+    "photo": "https://culturemixmag.com/wp-content/uploads/2013/07/Bellagio-Fountains.jpg",
+    "featured": true
+  },
+  {
+    "title": "Ryugyong Hotel",
+    "city": "Pyongyang, North Korea",
+    "distance": 900,
+    "price": 200,
+    "maxGroupSize": 1,
+    "desc": "Supremely Approved with Guide Included",
+    "reviews": [
+      {
+        "name": "Kim",
+        "rating": 5.0
+      },
+      {
+        "name": "Psy",
+        "rating": 4.0
+      },
+      {
+        "name": "BTS",
+        "rating": 3.5
+      }
+    ],
+    "avgRating": 4.9,
+    "photo": "https://cdn.cnn.com/cnnnext/dam/assets/190723070252-01-ryugyong-hotel-architecture-origins-restricted-super-tease.jpg",
+    "featured": true
   }
 ]

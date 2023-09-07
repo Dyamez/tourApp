@@ -48,3 +48,5 @@ Coding with Muhib: https://www.buymeacoffee.com/codingwithmuhib
 map image: https://www.tsiosophy.com/wp/wp-content/uploads/2011/04/Worldmap_LandAndPolitical.jpg
 
 https://stackoverflow.com/questions/51126472/how-to-organise-file-structure-of-backend-and-frontend-in-mern
+
+https://stackoverflow.com/questions/57151028/how-to-fix-validationerror-users-validation-failed-name-path-name-is-requ
