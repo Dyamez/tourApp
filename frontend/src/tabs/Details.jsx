@@ -5,6 +5,7 @@ import UnderText from "../access/underText";
 import FeaturedEventList from "../components/FeaturedEventList/FeaturedEventList";
 
 import ShownHotel from "../components/Shown/ShownHotel";
+import brand from "../assets/images/thrivedxLogo.png";
 
 export default function Details() {
   return (
@@ -15,6 +16,7 @@ export default function Details() {
             <Col lg="7">
               <div className="funTimes">
                 <UnderText underText={"From Dreams to Reality"} />
+
                 <h3>
                   For the time of your life <br />
                   ΩTeam Omega at your service
@@ -53,6 +55,10 @@ export default function Details() {
       <section>
         <Container>
           <Row>
+            <br />
+            <div className="brand">
+              <img src={brand} alt="brand" />
+            </div>
             <Col lg="11" classname="mb-6">
               <UnderText
                 className="UnderText"

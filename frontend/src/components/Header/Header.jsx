@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Button, Row } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
-import brand from "../../assets/images/thrivedxLogo.png";
+import brand from "../../assets/images/omega.jpg";
 import "./header.css";
 
 const linky = [
