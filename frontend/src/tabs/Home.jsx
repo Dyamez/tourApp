@@ -9,7 +9,7 @@ import globalImg from "../assets/images/worldMap.jpg";
 import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
 import vegasImg from "../assets/images/pic14.jpg";
-import SearchHotel from "../access/searchHotel";
+import SearchHotel from "../access/SearchHotels.jsx";
 
 //import vacation from "../assets/images/vacation.jpg";
 

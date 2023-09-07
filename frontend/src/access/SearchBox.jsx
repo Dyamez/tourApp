@@ -40,7 +40,7 @@ export default function SearchBox() {
               <i class="ri-map-pin-user-fill"></i>
             </span>
             <div>
-              <h5>Places</h5>
+              <h5>Location</h5>
               <input type="text" placeholder=" where to?" ref={placesRf} />
             </div>
           </FormGroup>
@@ -49,7 +49,7 @@ export default function SearchBox() {
               <i class="ri-roadster-line"></i>
             </span>
             <div>
-              <h5>Length</h5>
+              <h5>Distance</h5>
               <input type="number" placeholder="miles" ref={lengthRf} />
             </div>
           </FormGroup>
@@ -58,7 +58,7 @@ export default function SearchBox() {
               <i class="ri-team-line"></i>
             </span>
             <div>
-              <h5>Capacity</h5>
+              <h5>Group Number</h5>
               <input type="number" placeholder="0" ref={capacityRf} />
             </div>
           </FormGroup>

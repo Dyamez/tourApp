@@ -3,7 +3,7 @@ import HotelList from "../../access/HotelList";
 import { Col } from "reactstrap";
 import hotelData from "../../assets/data/hotels.js";
 
-export default function ShownNotes() {
+export default function ShownHotel() {
   return (
     <>
       {hotelData?.map((hotel) => (
