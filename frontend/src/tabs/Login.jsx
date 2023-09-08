@@ -26,7 +26,7 @@ export default function Login() {
     dispatch({ type: "LOGIN_START" });
 
     try {
-      const res = await fetch(`${BASE_URL}/auth/login`, {
+      const res = await fetch(`${BASE_URL}/log/login`, {
         method: "post",
         headers: {
           "content-type": "application/json",

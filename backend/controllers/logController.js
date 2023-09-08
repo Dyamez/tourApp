@@ -4,13 +4,13 @@ import jwt from "jsonwebtoken";
 
 export const register = async (req, res) => {
   try {
-    //const salt = bcrypt.genSaltSync(10);
-    //const hash = bcrypt.hashSync(req.body.password, salt);
+    const salt = bcrypt.genSaltSync(10);
+    const hash = bcrypt.hashSync(req.body.password, salt);
 
     const newPerson = new Person({
       username: req.body.username,
       email: req.body.email,
-      password: req.body.password,
+      password: hash,
       photo: req.body.photo,
     });
 
@@ -33,21 +33,20 @@ export const login = async (req, res) => {
         .json({ success: false, message: "non-exist user" });
     }
 
-    //const checkCorrectPassword = await bcrypt.compare(
-    //req.body.password,
-    //person.password
-    //);
+    const checkCorrectPassword = await bcrypt.compare(
+      req.body.password,
+      person.password
+    );
 
     if (!checkCorrectPassword) {
       return res
         .status(401)
         .json({ succcess: false, message: "not correct username or password" });
     }
+    /*
   } catch (error) {
     res.status(500).json({ success: false, message: "unauthorized" });
-  }
-};
-/*
+  } */
     const { password, role, ...rest } = person.doc;
 
     const token = jwt.sign(
@@ -66,10 +65,8 @@ export const login = async (req, res) => {
         success: true,
         message: "you have logged-in",
         data: { ...rest },
-        role,
       });
   } catch (error) {
     res.status(500).json({ success: false, message: "try again" });
   }
-  
-}; */
+};
