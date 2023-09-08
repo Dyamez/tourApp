@@ -10,6 +10,8 @@ import pic10 from "../images/pic10.jpg";
 import pic11 from "../images/pic11.jpg";
 import pic12 from "../images/pic12.jpg";
 import pic13 from "../images/pic13.jpg";
+import pic15 from "../images/pic15.jpg";
+import pic16 from "../images/pic16.jpg";
 
 const events = [
   {
@@ -201,6 +203,42 @@ const events = [
     ],
     avgRating: 4.8,
     photo: pic11,
+    featured: false,
+  },
+  {
+    id: "11",
+    title: "Melbourne",
+    city: "Melbourne",
+    distance: 900,
+    price: 600,
+    maxGroupSize: 3,
+    desc: "Crikey! Wildlife is Ozzy-riffic!",
+    reviews: [
+      {
+        name: "Steve",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.8,
+    photo: pic15,
+    featured: false,
+  },
+  {
+    id: "12",
+    title: "India",
+    city: "Delhi",
+    distance: 200,
+    price: 200,
+    maxGroupSize: 4,
+    desc: "Slumdog Bollywood",
+    reviews: [
+      {
+        name: "Ganesh",
+        rating: 4.7,
+      },
+    ],
+    avgRating: 4.3,
+    photo: pic16,
     featured: false,
   },
 ];
