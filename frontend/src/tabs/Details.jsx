@@ -3,9 +3,10 @@ import React from "react";
 import { Row, Container, Col } from "reactstrap";
 import UnderText from "../access/underText";
 import FeaturedEventList from "../components/FeaturedEventList/FeaturedEventList";
-
+import travel3 from "../assets/images/travel3.jpg";
 import ShownHotel from "../components/Shown/ShownHotel";
 import brand from "../assets/images/thrivedxLogo.png";
+import "../style/details.css";
 
 export default function Details() {
   return (
@@ -55,6 +56,9 @@ export default function Details() {
       <section>
         <Container>
           <Row>
+            <div className="travel3">
+              <img src={travel3} alt="travel3" />
+            </div>
             <br />
             <div className="brand">
               <img src={brand} alt="brand" />
