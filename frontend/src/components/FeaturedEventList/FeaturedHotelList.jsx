@@ -1,7 +1,7 @@
 import React from "react";
 //import TripList from "../../access/TripList";
 import { Col } from "reactstrap";
-import getDb from "./../../line/getDb";
+import useFetch from "./../../line/getDb";
 //import { BASE_URL } from "./../../tools/configuration";
 import HotelList from "../../access/HotelList";
 
@@ -10,7 +10,7 @@ export default function FeaturedHotelList() {
     data: hotels,
     loading,
     error,
-  } = getDb(`../../assets/data/events_book.hotels.json`);
+  } = useFetch(`../../assets/data/events_book.hotels.json`);
   //(`${BASE_URL}/hotels`);
 
   return (
