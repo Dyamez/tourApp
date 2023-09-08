@@ -10,6 +10,7 @@ import SearchBox from "../access/SearchBox";
 import MenuNote from "../menu/MenuNote";
 import vegasImg from "../assets/images/pic14.jpg";
 import SearchHotel from "../access/SearchHotels.jsx";
+import travel2 from "./../assets/images/travel2.jpg";
 
 //import vacation from "../assets/images/vacation.jpg";
 
@@ -88,6 +89,9 @@ export default function Home() {
       <section>
         <Container>
           <Row>
+            <div className="family">
+              <img src={travel2} alt="family banner" />
+            </div>
             <Col lg="11" classname="mb-6">
               <UnderText
                 className="UnderText"

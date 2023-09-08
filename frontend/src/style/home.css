@@ -95,3 +95,7 @@
   justify-content: center;
   background: skyblue;
 }
+
+.family img {
+  width: 100%;
+}
