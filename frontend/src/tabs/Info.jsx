@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/info.css";
-import { Container, Row, Col, Form, ListGroup } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import { useParams } from "react-router-dom";
 import eventData from "../assets/data/events";
 import ratings from "../tools/rating";
