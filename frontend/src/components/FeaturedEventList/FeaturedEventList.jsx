@@ -1,7 +1,7 @@
 import React from "react";
 import TripList from "../../access/TripList";
 import { Col } from "reactstrap";
-import getDb from "./../../line/getDb";
+import useFetch from "./../../line/getDb";
 import { BASE_URL } from "./../../tools/configuration";
 //import HotelList from "../../access/HotelList";
 
@@ -10,7 +10,7 @@ export default function FeaturedEventList() {
     data: featuredEvents,
     loading,
     error,
-  } = getDb(`${BASE_URL}/events/search/getFeaturedEvent`);
+  } = useFetch(`${BASE_URL}/events/search/getFeaturedEvent`);
 
   return (
     <>

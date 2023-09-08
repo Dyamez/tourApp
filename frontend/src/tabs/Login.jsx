@@ -89,7 +89,7 @@ export default function Login() {
                   </Button>
                 </Form>
                 <p>
-                  Don't have an account? <Link to="/register">Create</Link>
+                  Don't have an account? <Link to="/enlist">Create</Link>
                 </p>
               </div>
             </div>
