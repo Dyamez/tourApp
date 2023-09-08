@@ -3,6 +3,7 @@
 https://travel-app-lf85.onrender.com/home
 
 Team Omega Ω
+Project by Edward Manansala and Samantha StaAna
 Run "npm run dev" on root. It would run both frontend and backend(mongoDB) concurrently.
 Local: http://localhost:3000
 
