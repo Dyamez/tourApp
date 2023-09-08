@@ -1,13 +1,13 @@
-import express from 'express';
+import express from "express";
 import {
-    createRoom,
-    deleteRoom,
-    updateRoom,
-    updateRoomAvailability,
-    getRoom,
-    getRooms
-} from '../controllers/RoomController.js';
-import { verifyAdmin } from '../utilites/verifyToken.js';
+  createRoom,
+  deleteRoom,
+  updateRoom,
+  updateRoomAvailability,
+  getRoom,
+  getRooms,
+} from "../controllers/RoomController.js";
+import { verifyAdmin } from "../utilities/verifyToken.js";
 
 const router = express.Router();
 

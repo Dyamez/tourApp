@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { AuthDefine } from "../../define/AuthDefine";
 import { BASE_URL } from "../../utilities/configuration";
 
-const Book = ({ tour, avgRating }) => {
+export default function Book({ tour, avgRating }) {
   const { price, reviews, title } = tour;
   const navigate = useNavigate();
 
@@ -61,11 +61,11 @@ const Book = ({ tour, avgRating }) => {
 
   return (
     <div className="book">
-      <div className="booking__top d-flex align-items-center justify-content-between">
+      <div className="book_top d-flex align-items-center justify-content-between">
         <h3>
           ${price} <span>/per person</span>
         </h3>
-        <span className="tour__rating d-flex align-items-center">
+        <span className="eventRating d-flex align-items-center">
           <i
             class="ri-star-fill"
             style={{ color: "var(--secondary-color)" }}
@@ -74,9 +74,9 @@ const Book = ({ tour, avgRating }) => {
         </span>
       </div>
 
-      <div className="booking__form">
+      <div className="book_form">
         <h5>Information</h5>
-        <Form className="booking__info-form" onSubmit={regClk}>
+        <Form className="book_info-form" onSubmit={regClk}>
           <FormGroup>
             <input
               type="text"
@@ -114,7 +114,7 @@ const Book = ({ tour, avgRating }) => {
         </Form>
       </div>
 
-      <div className="booking__bottom">
+      <div className="book_bottom">
         <ListGroup>
           <ListGroupItem className="border-0 px-0">
             <h5 className="d-flex align-items-center gap-1">
@@ -133,11 +133,9 @@ const Book = ({ tour, avgRating }) => {
         </ListGroup>
 
         <Button className="btn primary__btn w-100 mt-4" onClick={regClk}>
-          Book Now
+          Reserve Today
         </Button>
       </div>
     </div>
   );
-};
-
-export default Book;
+}

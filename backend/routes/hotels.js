@@ -9,7 +9,7 @@ import {
   getFeaturedHotel,
   getHotelCount,
 } from "../controllers/HotelController.js";
-//import { verifyAdmin } from '../utilites/verifyToken.js'
+//import { verifyAdmin } from '../utilities/verifyToken.js'
 
 const router = express.Router();
 
