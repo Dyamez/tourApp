@@ -92,6 +92,7 @@ export default function Home() {
             <div>
               <img src={travel2} alt="" />
             </div>
+
             <br />
             <Col lg="11" classname="mb-6">
               <UnderText

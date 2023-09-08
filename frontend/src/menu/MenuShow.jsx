@@ -6,7 +6,7 @@ export default function MenuShow({ item }) {
   return (
     <div className="menu_item">
       <div className="menu_img">
-        <img src={imgUrl} alt="image" />
+        <img src={imgUrl} alt="beautify travel" />
       </div>
       <h4>{title}</h4>
       <p>{desc}</p>
