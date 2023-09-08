@@ -1,7 +1,7 @@
 import React from "react";
 import TripList from "../../access/TripList";
 import { Col } from "reactstrap";
-import eventData from "../../assets/data/events";
+import eventData from "../../assets/data/events.js";
 
 export default function ShownNotes() {
   return (

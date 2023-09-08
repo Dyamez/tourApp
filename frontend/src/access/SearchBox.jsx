@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./searchBox.css";
 import { Form, FormGroup, Col } from "reactstrap";
 import { useNavigate } from "react-router-dom";
-import { BASE_URL } from "../tools/configuration";
+//import { BASE_URL } from "../tools/configuration";
 
 export default function SearchBox() {
   const placesRf = useRef("");
@@ -19,7 +19,7 @@ export default function SearchBox() {
     }
 
     const res = await fetch(
-      `${BASE_URL}/events/search/getEventBySearch?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`
+      `https://backend-fun.onrender.com/api/v1/tours/search/getTourBySearch?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`
     );
 
     if (!res.ok) alert("Something went wrong");

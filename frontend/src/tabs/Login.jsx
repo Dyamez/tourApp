@@ -26,7 +26,7 @@ export default function Login() {
     dispatch({ type: "LOGIN_START" });
 
     try {
-      const res = await fetch(`${BASE_URL}/log/login`, {
+      const res = await fetch(`${BASE_URL}api/v1/auth/login`, {
         method: "post",
         headers: {
           "content-type": "application/json",
@@ -89,7 +89,7 @@ export default function Login() {
                   </Button>
                 </Form>
                 <p>
-                  Don't have an account? <Link to="/register">Create</Link>
+                  Don't have an account? <Link to="/enlist">Create</Link>
                 </p>
               </div>
             </div>

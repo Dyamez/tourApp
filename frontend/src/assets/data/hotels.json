@@ -3,7 +3,7 @@
     "title": "Manila Hotel",
     "name": "The Manila Hotel",
     "address": "Manila, Philippines",
-    "distance": 700,
+    "distance": 1,
     "city": "Manila",
     "photo": "https://www.manila-hotel.com.ph/wp-content/uploads/2020/06/TMH_Facade_1-optimized-e1598429179579.jpg",
     "desc": "historic five-star hotel located along Manila Bay in Manila",
@@ -15,9 +15,9 @@
   {
     "title": "Bellagio",
     "city": "Las Vegas",
-    "distance": 30,
+    "distance": 1,
     "price": 999,
-    "maxGroupSize": 10,
+    "maxGroupSize": 5,
     "desc": "Great Premier Hotel in Las Vegas",
     "reviews": [
       {
@@ -40,9 +40,9 @@
   {
     "title": "Ryugyong Hotel",
     "city": "Pyongyang, North Korea",
-    "distance": 900,
+    "distance": 1,
     "price": 200,
-    "maxGroupSize": 1,
+    "maxGroupSize": 5,
     "desc": "Supremely Approved with Guide Included",
     "reviews": [
       {

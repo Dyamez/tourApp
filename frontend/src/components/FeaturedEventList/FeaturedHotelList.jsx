@@ -10,7 +10,7 @@ export default function FeaturedHotelList() {
     data: hotels,
     loading,
     error,
-  } = getDb(`../../assets/data/events_book.hotels.js`);
+  } = getDb(`../../assets/data/events_book.hotels.json`);
   //(`${BASE_URL}/hotels`);
 
   return (

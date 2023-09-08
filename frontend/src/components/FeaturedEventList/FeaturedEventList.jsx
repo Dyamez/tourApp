@@ -2,7 +2,7 @@ import React from "react";
 import TripList from "../../access/TripList";
 import { Col } from "reactstrap";
 import getDb from "./../../line/getDb";
-import { BASE_URL } from "./../../tools/configuration";
+//import { BASE_URL } from "./../../tools/configuration";
 //import HotelList from "../../access/HotelList";
 
 export default function FeaturedEventList() {
@@ -10,7 +10,9 @@ export default function FeaturedEventList() {
     data: featuredEvents,
     loading,
     error,
-  } = getDb(`${BASE_URL}/events/search/getFeaturedEvent`);
+  } = getDb(
+    `https://backend-fun.onrender.com/api/v1/tours/search/getFeaturedTour`
+  );
 
   return (
     <>

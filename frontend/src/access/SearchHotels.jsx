@@ -2,24 +2,27 @@ import React, { useRef } from "react";
 import "./searchHotel.css";
 import { Form, FormGroup, Col } from "reactstrap";
 import { useNavigate } from "react-router-dom";
-import { BASE_URL } from "../tools/configuration";
+//import { BASE_URL } from "../tools/configuration";
 
 export default function SearchHotel() {
-  const placesRf = useRef("");
+  const titleRF = useRef("");
+  //const placesRf = useRef("");
   const lengthRf = useRef(0);
   const capacityRf = useRef(0);
   const navigate = useNavigate();
 
   const searchMee = async () => {
-    const city = placesRf.current.value;
+    const title = titleRF.current.value;
+    //const city = placesRf.current.value;
     const distance = lengthRf.current.value;
     const maxGroupSize = capacityRf.current.value;
-    if (city === "" || distance === "" || maxGroupSize === "") {
+    if (title === "" || distance === "" || maxGroupSize === "") {
       return alert("All Boxes must be Filled");
     }
 
     const res = await fetch(
-      `${BASE_URL}/hotels/search/getHotelBySearch?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`
+      `https://backend-fun.onrender.com/api/v1/tours/search/getTourBySearch?title=${title}&distance=${distance}&maxGroupSize=${maxGroupSize}`
+      //`https://backend-fun.onrender.com/api/v1/hotels/search/getHotelBySearch?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`
     );
 
     if (!res.ok) alert("Something went wrong");
@@ -27,7 +30,7 @@ export default function SearchHotel() {
     const result = await res.json();
 
     navigate(
-      `tripping/search/?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`,
+      `tripping/search/?title=${title}&distance=${distance}&maxGroupSize=${maxGroupSize}`,
       { state: result.data }
     );
   };
@@ -40,8 +43,8 @@ export default function SearchHotel() {
               <i class="ri-map-pin-user-fill"></i>
             </span>
             <div>
-              <h5>City</h5>
-              <input type="text" placeholder=" where to?" ref={placesRf} />
+              <h5>Name</h5>
+              <input type="text" placeholder=" where to?" ref={titleRF} />
             </div>
           </FormGroup>
           <FormGroup className="d-flex gap-4 form__group groupOne">
