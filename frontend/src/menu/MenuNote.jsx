@@ -8,7 +8,11 @@ import gearImg from "../assets/images/Gears.png";
 const menuData = [
   {
     imgUrl: sunshineImg,
-    title: <a href="https://www.accuweather.com/">Weather Forecast"</a>,
+    title: (
+      <a href="https://www.accuweather.com/" target="_new">
+        Weather Forecast"
+      </a>
+    ),
     desc: "What the weather would be on the date of your tour.",
   },
   {
