@@ -1,8 +1,12 @@
 # Milestone II
 
-### Render Deployed
+Digital Ocean Deployment
 
-# https://tourapp-deploy-branch.onrender.com/
+##https://shark-app-engzz.ondigitalocean.app/
+
+Render Deployed
+
+https://tourapp-deploy-branch.onrender.com/
 
 previous build link: https://travel-app-lf85.onrender.com
 
