@@ -21,10 +21,6 @@ const linky_links = [
 
 const linky_links2 = [
   {
-    path: "/teamOmega",
-    display: "TeamOmega",
-  },
-  {
     path: "/login",
     display: "Login",
   },
@@ -82,7 +78,7 @@ export default function Linkys() {
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
-                    <i class="ri-map-pin-line"></i>
+                    <i class="ri-home-5-line"></i>
                   </span>
                   Address:
                 </h6>
@@ -92,7 +88,7 @@ export default function Linkys() {
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
-                    <i class="ri-mail-line"></i>
+                    <i class="ri-mail-fill"></i>
                   </span>
                   Email:
                 </h6>
@@ -103,7 +99,7 @@ export default function Linkys() {
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
-                    <i class="ri-phone-fill"></i>
+                    <i class="ri-customer-service-2-line"></i>
                   </span>
                   Phone:
                 </h6>
