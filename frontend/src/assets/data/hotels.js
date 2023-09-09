@@ -1,6 +1,9 @@
 import manilaHotel from "../images/manilaHotel.jpg";
 import bellagio from "../images/bellagio.tif";
 import pyongyang from "../images/pyongyang.jpg";
+import hotelCali from "../images/hotelCali.jpg";
+import morgan from "../images/morgan.jpeg";
+import mizpah from "../images/mizpah.webp";
 
 const hotels = [
   {
@@ -80,6 +83,80 @@ const hotels = [
     avgRating: 4.9,
     photo: pyongyang,
     featured: true,
+  },
+  {
+    id: "23",
+    title: "Hotel California",
+    city: "Baja, California",
+    distance: 300,
+    price: 100,
+    maxGroupSize: 4,
+    desc: "Plenty of room, Any time of year, You can find it here.",
+    reviews: [
+      {
+        name: "Don",
+        rating: 4.0,
+      },
+      {
+        name: "Joe",
+        rating: 4.6,
+      },
+      {
+        name: "Timothy",
+        rating: 4.5,
+      },
+    ],
+    avgRating: 4.9,
+    photo: hotelCali,
+    featured: false,
+  },
+  {
+    id: "24",
+    title: "Emily Morgan Hotel",
+    city: "San Antonio, Texas",
+    distance: 200,
+    price: 150,
+    maxGroupSize: 3,
+    desc: "Not Spooky.",
+    reviews: [
+      {
+        name: "Freddy",
+        rating: 4.0,
+      },
+      {
+        name: "Jason",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.9,
+    photo: morgan,
+    featured: false,
+  },
+  {
+    id: "25",
+    title: "Mizpah Hotel",
+    city: "Tonopah Nevada",
+    distance: 200,
+    price: 300,
+    maxGroupSize: 2,
+    desc: "Victorian inspired, Ladies in red approved.",
+    reviews: [
+      {
+        name: "Lady",
+        rating: 4.1,
+      },
+      {
+        name: "Red",
+        rating: 4.2,
+      },
+      {
+        name: "Sherlock",
+        rating: 3.9,
+      },
+    ],
+    avgRating: 4.9,
+    photo: mizpah,
+    featured: false,
   },
 ];
 
