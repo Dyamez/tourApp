@@ -6,6 +6,7 @@ import eventData from "../assets/data/events";
 import TripList from "./../access/TripList";
 //import SearchBox from "./../access/SearchBox";
 import Shared from "../access/Shared";
+import BottomLabel from "../access/BottomLabel";
 
 export default function Tripping() {
   let [pageCount, setPageCount] = useState(0);
@@ -42,6 +43,7 @@ export default function Tripping() {
           </Row>
         </Container>
       </section>
+      <BottomLabel />
     </>
   );
 }
