@@ -1,0 +1,53 @@
+.linkys_linky-links h6 span i {
+  color: lightblue;
+  font-size: 1.4rem;
+}
+
+.linkys_linky-links h6 {
+  margin-bottom: 1rem;
+}
+
+.linkys_linky-links p {
+  font-size: 1.2rem;
+}
+
+.ownership {
+  color: lightblue;
+  font-size: 1.2rem;
+}
+
+.linkys {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.linkys .brand img {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.linkys .brand p {
+  color: orangered;
+  font-size: 1rem;
+}
+
+.creep_link span a {
+  text-decoration: none;
+  color: lightcoral;
+  font-size: 1.5rem;
+}
+
+.linkys_link-title {
+  color: lightcoral;
+  margin-bottom: 1rem;
+}
+
+.linkys_linky-links li a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 1.2rem;
+}
+
+.linkys_linky-links a:hover {
+  color: lightblue;
+}

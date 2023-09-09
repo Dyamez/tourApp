@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "./../Header/Header";
-//import Footer from "./../Footer/Footer"; <Footer />
+import Linkys from "./../Linkys/Linkys";
 import Router from "../../router/Router";
 
 export default function Arrange() {
@@ -9,6 +9,7 @@ export default function Arrange() {
     <>
       <Header />
       <Router />
+      <Linkys />
     </>
   );
 }

@@ -16,7 +16,7 @@ export default function FeaturedEventList() {
 
   return (
     <>
-      {loading && <h4>Loading.....</h4>}
+      {loading && <h4>Remote mongoDB fetching</h4>}
       {error && <h4>{error}</h4>}
       {!loading &&
         !error &&

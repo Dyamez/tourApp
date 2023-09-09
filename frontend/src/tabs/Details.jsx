@@ -7,6 +7,7 @@ import travel3 from "../assets/images/travel3.jpg";
 import ShownHotel from "../components/Shown/ShownHotel";
 import brand from "../assets/images/thrivedxLogo.png";
 import "../style/details.css";
+import BottomLabel from "../access/BottomLabel";
 
 export default function Details() {
   return (
@@ -91,6 +92,7 @@ export default function Details() {
           </Row>
         </Container>
       </section>
+      <BottomLabel />
     </>
   );
 }
