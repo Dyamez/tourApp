@@ -3,6 +3,7 @@ import Shared from "./../access/Shared";
 import { Container, Row, Col } from "reactstrap";
 import { useLocation } from "react-router-dom";
 import TripList from "../access/TripList";
+import BottomLabel from "../access/BottomLabel";
 
 export default function Result() {
   const location = useLocation();
@@ -27,6 +28,7 @@ export default function Result() {
           </Row>
         </Container>
       </section>
+      <BottomLabel />
     </>
   );
 }

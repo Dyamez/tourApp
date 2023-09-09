@@ -11,6 +11,7 @@ import MenuNote from "../menu/MenuNote";
 import vegasImg from "../assets/images/pic14.jpg";
 import SearchHotel from "../access/SearchHotels.jsx";
 import travel2 from "../assets/images/travel2.jpg";
+import BottomLabel from "../access/BottomLabel.jsx";
 
 //import vacation from "../assets/images/vacation.jpg";
 
@@ -105,6 +106,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
+      <BottomLabel />
     </>
   );
 }
