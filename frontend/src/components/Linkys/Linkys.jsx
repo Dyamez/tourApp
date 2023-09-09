@@ -44,7 +44,10 @@ export default function Linkys() {
                 For Milestone Project II: {year}
                 <br />
                 Edward James Manansala & <br />
-                Samantha Sta.Ana
+                Samantha Sta.Ana <br />
+                <a href="https://github.com/Dyamez/tourApp" target="_new">
+                  This Github Project
+                </a>
               </p>
             </div>
           </Col>
@@ -104,7 +107,7 @@ export default function Linkys() {
                   Phone:
                 </h6>
 
-                <p className="mb-0">+1-702-OMEGAS</p>
+                <p className="mb-0">+1-702-OMEGAS1</p>
               </ListGroupItem>
             </ListGroup>
           </Col>
