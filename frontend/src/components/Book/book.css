@@ -1,7 +1,7 @@
 .book {
   padding: 2rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid red;
   position: sticky;
   top: 80px;
 }
@@ -14,22 +14,47 @@
 .book_top h3 span {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--text-color);
+  color: black;
+}
+
+.book_bottom li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book_bottom li h5,
+.book_bottom li span {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: black;
+}
+
+.total h5,
+.total span {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: lightcoral !important;
+}
+
+.book_bottom Button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .book_top span {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--text-color);
+  color: black;
 }
 
 .book_top span i {
-  color: var(--secondary-color);
+  color: red;
 }
 
 .book_top {
   padding-bottom: 1rem;
-  border-bottom: 1px solid rgb(229, 231, 235);
+  border-bottom: 1px solid gray;
 }
 
 .book_form {
@@ -46,7 +71,7 @@
   border-radius: 0.5rem;
   color: var(--heading-color);
   font-size: 0.7rem;
-  border-bottom: 1px solid rgb(229, 231, 235);
+  border-bottom: 1px solid gray;
   border: none;
 }
 
@@ -56,30 +81,5 @@
 
 .book_info-form {
   padding: 0.2rem;
-  border: 1px solid rgb(229, 231, 235);
-}
-
-.book_bottom li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.book_bottom li h5,
-.book_bottom li span {
-  font-size: 0.7rem;
-  font-weight: 500;
-  color: var(--text-color);
-}
-
-.total h5,
-.total span {
-  font-size: 1rem !important;
-  font-weight: 700 !important;
-  color: var(--heading-color) !important;
-}
-
-.book_bottom Button:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
+  border: 1px solid gray;
 }

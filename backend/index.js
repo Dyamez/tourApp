@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import eventRoute from "./routes/events.js";
 import personRoute from "./routes/persons.js";
 import logRoute from "./routes/log.js";
-
+import bookingRoute from "./routes/book.js";
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import hotelsRoute from "./routes/hotels.js";
@@ -49,7 +49,7 @@ app.use(cookieParser());
 app.use("/log", logRoute);
 app.use("/events", eventRoute);
 app.use("/persons", personRoute);
-
+app.use("/booking", bookingRoute);
 app.use("/auth", authRoute);
 app.use("/users", usersRoute);
 app.use("/hotels", hotelsRoute);

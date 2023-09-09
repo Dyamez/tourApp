@@ -1,14 +1,23 @@
+/*
+import React from "react";
+import { Form, FormGroup, ListGroup, ListGroupItem, Button } from "reactstrap";
+import "./book.css";
+
+export default function Book({event}) {
+  return <div>Booked!</div>;
+} */
+
 import React, { useState, useContext } from "react";
 import "./book.css";
 import { Form, FormGroup, ListGroup, ListGroupItem, Button } from "reactstrap";
 
 import { useNavigate } from "react-router-dom";
 import { AuthDefine } from "../../define/AuthDefine";
-import { BASE_URL } from "../../utilities/configuration";
+import { BASE_URL } from "../../tools/configuration";
 
-export default function Book({ tour, avgRating }) {
-  const { price, reviews, title } = tour;
-  const navigate = useNavigate();
+export default function Book({ event, ratings }) {
+  const { price, reviews, title } = event;
+  const direction = useNavigate();
 
   const { user } = useContext(AuthDefine);
 
@@ -26,7 +35,7 @@ export default function Book({ tour, avgRating }) {
     setBook((prev) => ({ ...prev, [e.target.id]: e.target.value }));
   };
 
-  const serviceFee = 10;
+  const serviceFee = 68;
   const totalAmount =
     Number(price) * Number(book.guestSize) + Number(serviceFee);
 
@@ -39,7 +48,7 @@ export default function Book({ tour, avgRating }) {
         return alert("Please sign in");
       }
 
-      const res = await fetch(`${BASE_URL}/book`, {
+      const res = await fetch(`${BASE_URL}/booking`, {
         method: "post",
         headers: {
           "content-type": "application/json",
@@ -53,7 +62,7 @@ export default function Book({ tour, avgRating }) {
       if (!res.ok) {
         return alert(result.message);
       }
-      navigate("/thank-you");
+      direction("/thank-you");
     } catch (error) {
       alert(error.message);
     }
@@ -66,21 +75,18 @@ export default function Book({ tour, avgRating }) {
           ${price} <span>/per person</span>
         </h3>
         <span className="eventRating d-flex align-items-center">
-          <i
-            class="ri-star-fill"
-            style={{ color: "var(--secondary-color)" }}
-          ></i>
-          {avgRating === 0 ? null : avgRating} ({reviews?.length})
+          <i class="ri-star-fill" style={{ color: "gold" }}></i>
+          {ratings === 0 ? null : ratings} ({reviews?.length})
         </span>
       </div>
 
       <div className="book_form">
-        <h5>Information</h5>
+        <h5>Details Form</h5>
         <Form className="book_info-form" onSubmit={regClk}>
           <FormGroup>
             <input
               type="text"
-              placeholder="Full Name"
+              placeholder="Your Name"
               id="fullName"
               required
               onChange={loginDetails}
@@ -89,7 +95,7 @@ export default function Book({ tour, avgRating }) {
           <FormGroup>
             <input
               type="tel"
-              placeholder="Phone"
+              placeholder="Telephone number"
               id="phone"
               required
               onChange={loginDetails}
@@ -105,7 +111,7 @@ export default function Book({ tour, avgRating }) {
             />
             <input
               type="number"
-              placeholder="Guest"
+              placeholder="Number of person"
               id="guestSize"
               required
               onChange={loginDetails}
@@ -118,22 +124,22 @@ export default function Book({ tour, avgRating }) {
         <ListGroup>
           <ListGroupItem className="border-0 px-0">
             <h5 className="d-flex align-items-center gap-1">
-              ${price} <i class="ri-close-line"></i> 1 person
+              ${price} <i class="ri-close-line"></i> per Guest
             </h5>
             <span> ${price}</span>
           </ListGroupItem>
           <ListGroupItem className="border-0 px-0">
-            <h5>Service charge</h5>
+            <h5>Omega's Booking Fee</h5>
             <span>${serviceFee}</span>
           </ListGroupItem>
           <ListGroupItem className="border-0 px-0 total">
-            <h5>Total</h5>
+            <h5>Total Amount:</h5>
             <span>${totalAmount}</span>
           </ListGroupItem>
         </ListGroup>
 
         <Button className="btn primary__btn w-100 mt-4" onClick={regClk}>
-          Reserve Today
+          Reserve Now!!!
         </Button>
       </div>
     </div>
