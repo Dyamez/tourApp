@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import { useParams } from "react-router-dom";
 import eventData from "../assets/data/events";
 import ratings from "../tools/rating";
+import Book from "../components/Book/Book.jsx";
 
 export default function Info() {
   const { id } = useParams();
@@ -55,6 +56,9 @@ export default function Info() {
                   <h4>Feedback ({reviews?.length} reviewed)</h4>
                 </div>
               </div>
+            </Col>
+            <Col lg="4">
+              <Book event={event} />
             </Col>
           </Row>
         </Container>
