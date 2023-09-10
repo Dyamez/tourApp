@@ -21,6 +21,10 @@ const linky_links = [
 
 const linky_links2 = [
   {
+    path: "/hotel",
+    display: "Hotels",
+  },
+  {
     path: "/login",
     display: "Login",
   },
@@ -44,8 +48,8 @@ export default function Linkys() {
                 For Milestone Project II: {year}
                 <br />
                 Edward James Manansala & <br />
-                Samantha Sta.Ana <br />
-                <a href="https://github.com/Dyamez/tourApp" target="_new">
+                Samantha Sta.Ana. <br />
+                <a href="https://github.com/Dyamez/tourApp" target="new">
                   This Github Project
                 </a>
               </p>
@@ -75,7 +79,7 @@ export default function Linkys() {
             </ListGroup>
           </Col>
           <Col lg="3">
-            <h5 className="linky_link-title">Details</h5>
+            <h5 className="linky_link-title">Business Information:</h5>
 
             <ListGroup className="linky_quick-links">
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">

@@ -17,7 +17,11 @@ const linky = [
   },
   {
     path: "/tripping",
-    display: "Tour&Packages_______________________", //"|__Tours&Packages_________",
+    display: "Tour&Packages", //"|__Tours&Packages_________",
+  },
+  {
+    path: "/hotel",
+    display: "Hotels_______", //"|__Tours&Packages_________",
   },
 ];
 

@@ -41,14 +41,14 @@ export default function HotelList({ hotel }) {
             </span>
           </div>
           <h4 className="hotel_title">
-            <Link to={`/tripping/${id}`}>{title}</Link>
+            <Link to={`/hotel/${id}`}>{title}</Link>
           </h4>
           <div className="list_bottom d-flex align-items-center justify-content-between mt-3">
             <h4>
               ${price} <span> /each individual</span>
             </h4>
             <button className="reserve_btn">
-              <Link to={`/tripping/${id}`}>Book your Room</Link>
+              <Link to={`/hotel/${id}`}>Book your Room</Link>
             </button>
           </div>
         </CardBody>
