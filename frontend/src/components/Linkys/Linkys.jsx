@@ -49,9 +49,9 @@ export default function Linkys() {
                 <br />
                 Edward James Manansala & <br />
                 Samantha Sta.Ana. <br />
-                <a href="https://github.com/Dyamez/tourApp" target="new">
+                {/* <a href="https://github.com/Dyamez/tourApp" target="new">
                   This Github Project
-                </a>
+                </a> */}
               </p>
             </div>
           </Col>
