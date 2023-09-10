@@ -10,8 +10,10 @@ export default function FeaturedHotelList() {
     data: hotels,
     loading,
     error,
-  } = useFetch(`../../assets/data/events_book.hotels.js`);
-  //(`${BASE_URL}/hotels`);
+  } = useFetch(
+    //(`../../assets/data/events_book.hotels.js`);
+    `${BASE_URL}/hotels`
+  );
 
   return (
     <>

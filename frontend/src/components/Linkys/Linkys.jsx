@@ -21,6 +21,10 @@ const linky_links = [
 
 const linky_links2 = [
   {
+    path: "/hotel",
+    display: "Hotels",
+  },
+  {
     path: "/login",
     display: "Login",
   },

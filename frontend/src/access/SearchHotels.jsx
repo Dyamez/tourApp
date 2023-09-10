@@ -24,11 +24,11 @@ export default function SearchHotel() {
 
     if (!res.ok) alert("Something went wrong");
 
-    const result = await res.json();
+    const reply = await res.json();
 
     navigate(
-      `tripping/search/?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`,
-      { state: result.data }
+      `hotels/search/?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`,
+      { state: reply.data }
     );
   };
   return (

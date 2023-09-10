@@ -7,7 +7,7 @@ import mizpah from "../images/mizpah.webp";
 
 const hotels = [
   {
-    id: "20",
+    id: "1",
     title: "Manila Hotel",
     city: "Manila",
     distance: 700,
@@ -33,7 +33,7 @@ const hotels = [
     featured: true,
   },
   {
-    id: "21",
+    id: "2",
     title: "Bellagio",
     city: "Las Vegas",
     distance: 30,
@@ -59,7 +59,7 @@ const hotels = [
     featured: true,
   },
   {
-    id: "22",
+    id: "3",
     title: "Ryugyong Hotel",
     city: "Pyongyang, North Korea",
     distance: 900,
@@ -85,7 +85,7 @@ const hotels = [
     featured: true,
   },
   {
-    id: "23",
+    id: "4",
     title: "Hotel California",
     city: "Baja, California",
     distance: 300,
@@ -111,7 +111,7 @@ const hotels = [
     featured: false,
   },
   {
-    id: "24",
+    id: "5",
     title: "Emily Morgan Hotel",
     city: "San Antonio, Texas",
     distance: 200,
@@ -133,7 +133,7 @@ const hotels = [
     featured: false,
   },
   {
-    id: "25",
+    id: "6",
     title: "Mizpah Hotel",
     city: "Tonopah Nevada",
     distance: 200,
