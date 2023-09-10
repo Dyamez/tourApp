@@ -138,3 +138,5 @@ export const getEventCount = async (req, res) => {
       .json({ successful: false, message: "did not proceed to plan" });
   }
 };
+
+export default eventController;
