@@ -18,7 +18,6 @@ import BottomLabel from "../access/BottomLabel.jsx";
 export default function Home() {
   return (
     <>
-      {}
       <section>
         <Container>
           <Row>
