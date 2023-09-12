@@ -10,7 +10,8 @@ export default function FeaturedEventList() {
     data: featuredEvents,
     loading,
     error,
-  } = useFetch(`${BASE_URL}/events/search/getFeaturedEvent`);
+  } = useFetch(`${BASE_URL}/tours/search/getFeaturedTour`);
+  ///events/search/getFeaturedEvent`);
 
   return (
     <>

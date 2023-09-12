@@ -11,13 +11,14 @@ import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import hotelsRoute from "./routes/hotels.js";
 import rooomsRoute from "./routes/rooms.js";
+import reviewRoute from "./routes/reviews.js";
 
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 6000;
 const corsOptions = {
   origin: true,
-  credentials: true,
+  credentials: false,
 };
 /*
 app.get("/", (req, res) => {
@@ -44,7 +45,7 @@ const connect = async () => {
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(cookieParser());
 app.use("/log", logRoute);
 app.use("/events", eventRoute);
@@ -54,6 +55,7 @@ app.use("/auth", authRoute);
 app.use("/users", usersRoute);
 app.use("/hotels", hotelsRoute);
 app.use("/rooms", rooomsRoute);
+app.use("/review", reviewRoute);
 
 app.listen(port, () => {
   connect();

@@ -1,6 +1,6 @@
-export default function total(reviews) {
+const calculateAvgRating = (reviews) => {
   const satisfaction = reviews?.reduce((acc, item) => acc + item.rating, 0);
-  const rating =
+  const ratings =
     satisfaction === 0
       ? ""
       : satisfaction === 1
@@ -9,6 +9,8 @@ export default function total(reviews) {
 
   return {
     satisfaction,
-    rating,
+    ratings,
   };
-}
+};
+
+export default calculateAvgRating;

@@ -9,6 +9,7 @@ import Tripping from "../tabs/Tripping";
 import Response from "../tabs/Response";
 import Hotel from "../tabs/Hotel";
 import Reply from "../tabs/Reply";
+import Edit from "../tabs/Edit_";
 import { Navigate, Routes, Route } from "react-router-dom";
 
 export default function Router() {
@@ -25,6 +26,7 @@ export default function Router() {
       <Route path="/home/events/search" element={<Response />} />
       <Route path="/hotel" element={<Hotel />} />
       <Route path="/home/hotels/search" element={<Reply />} />
+      <Route path="/events/edit" element={Edit} />
     </Routes>
   );
 }

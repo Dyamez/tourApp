@@ -1,0 +1,198 @@
+[{
+  "_id": {
+    "$oid": "64f3bda2fb74ad8a50098cfc"
+  },
+  "title": "The Strip",
+  "city": "Las Vegas",
+  "address": "USA",
+  "distance": 100,
+  "photo": "https://www.fodors.com/wp-content/uploads/2019/01/3_LaxOpenContainerLaws_LasVegas_shutterstock149733929.jpg",
+  "desc": "What happens in Vegas...",
+  "price": 500,
+  "maxGroupSize": 10,
+  "reviews": [],
+  "featured": true,
+  "createdAt": {
+    "$date": "2023-09-02T22:56:34.687Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T22:56:34.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f3bdaefb74ad8a50098cfe"
+  },
+  "title": "Portland",
+  "city": "Portland, Oregon",
+  "address": "USA",
+  "distance": 500,
+  "photo": "https://cdn.wallpapersafari.com/17/70/QC6SN4.jpg",
+  "desc": "Rose Gardens and Bushes Pepper Parks are Legendary.",
+  "price": 800,
+  "maxGroupSize": 8,
+  "reviews": [],
+  "featured": false,
+  "createdAt": {
+    "$date": "2023-09-02T22:56:46.888Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T22:56:46.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f3bdbbfb74ad8a50098d00"
+  },
+  "title": "Los Angeles",
+  "city": "Los Angeles, California",
+  "address": "USA",
+  "distance": 500,
+  "photo": "https://2.bp.blogspot.com/-D0dNFdS9XdQ/URTLsb9xtwI/AAAAAAAAIi4/s2hbtuw2qlw/s1600/Los_Angeles_Tourism.jpg",
+  "desc": "City of Angels",
+  "price": 700,
+  "maxGroupSize": 8,
+  "reviews": [],
+  "featured": true,
+  "createdAt": {
+    "$date": "2023-09-02T22:56:59.161Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T22:56:59.161Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f3bdd0fb74ad8a50098d02"
+  },
+  "title": "Indonesia",
+  "city": "Indonesia",
+  "address": "Southeast Asia",
+  "distance": 500,
+  "photo": "pic05",
+  "desc": "Relaxing",
+  "price": 940,
+  "maxGroupSize": 8,
+  "reviews": [],
+  "featured": false,
+  "createdAt": {
+    "$date": "2023-09-02T22:57:20.090Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T22:57:20.090Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f3bddbfb74ad8a50098d04"
+  },
+  "title": "Kyoto",
+  "city": "Japan",
+  "address": "East Asia",
+  "distance": 500,
+  "photo": "pic06",
+  "desc": "Breathtaking",
+  "price": 634,
+  "maxGroupSize": 8,
+  "reviews": [],
+  "featured": false,
+  "createdAt": {
+    "$date": "2023-09-02T22:57:31.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T22:57:31.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f3bde6fb74ad8a50098d06"
+  },
+  "title": "Paris",
+  "city": "France",
+  "address": "Europe",
+  "distance": 500,
+  "photo": "pic07",
+  "desc": "Very French",
+  "price": 674,
+  "maxGroupSize": 8,
+  "reviews": [],
+  "featured": false,
+  "createdAt": {
+    "$date": "2023-09-02T22:57:42.183Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T22:57:42.183Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f3bdf0fb74ad8a50098d08"
+  },
+  "title": "Thailand",
+  "city": "Thailand",
+  "address": "Southeast Asia",
+  "distance": 500,
+  "photo": "pic03",
+  "desc": "Fun",
+  "price": 578,
+  "maxGroupSize": 8,
+  "reviews": [],
+  "featured": false,
+  "createdAt": {
+    "$date": "2023-09-02T22:57:52.662Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T22:57:52.662Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f3c189fb74ad8a50098d18"
+  },
+  "title": "Big Ben",
+  "city": "London",
+  "address": "Europe",
+  "distance": 300,
+  "photo": "pic01",
+  "desc": "Big Ben and the Big British Clock",
+  "price": 998,
+  "maxGroupSize": 10,
+  "reviews": [],
+  "featured": false,
+  "createdAt": {
+    "$date": "2023-09-02T23:13:13.741Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T23:13:13.741Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f4ce0030fe370744e7f731"
+  },
+  "title": "North Korea",
+  "city": "Pyongyang",
+  "address": "Northeast Asia",
+  "distance": 700,
+  "photo": "https://whereistheoutrage.net/wp-content/uploads/2010/02/pyongyang-north-korea-nc.jpg",
+  "desc": "Fun with Supreme Leader",
+  "price": 578,
+  "maxGroupSize": 1,
+  "reviews": [],
+  "featured": true,
+  "createdAt": {
+    "$date": "2023-09-03T18:18:40.240Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-03T18:18:40.240Z"
+  },
+  "__v": 0
+}]
